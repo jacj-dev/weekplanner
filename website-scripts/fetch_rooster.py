@@ -8,17 +8,18 @@ sowieso niet lukken), maar binnen een GitHub Actions-workflow: daar heeft het
 gewoon internettoegang en mag het rechtstreeks bij Zermelo ophalen.
 
 De iCal-URL (met de geheime access_token erin) staat NIET in dit bestand of
-ergens anders in de repository -- die wordt via een GitHub Actions "secret"
+ergens anders in de repository — die wordt via een GitHub Actions "secret"
 aangeleverd als omgevingsvariabele ZERMELO_ICAL_URL. Zo blijft je toegangscode
 uit je (publieke) broncode.
 
 Gebruikt alleen Python's standaardbibliotheek, dus er hoeft niets
-geinstalleerd te worden in de workflow.
+geïnstalleerd te worden in de workflow.
 """
 
 from __future__ import annotations
 
 import calendar
+import hashlib
 import json
 import os
 import re
@@ -168,7 +169,7 @@ def _change_note(description: str) -> Optional[str]:
 def _reconcile_cancellations(events: list[dict]) -> list[dict]:
     """Zermelo stuurt voor een vervallen les vaak twee events op hetzelfde
     tijdstip mee: het origineel plus een apart annuleringsbericht
-    (STATUS:CANCELLED, titel met '[x] '-label). Die voegen we samen tot een
+    (STATUS:CANCELLED, titel met '[x] '-label). Die voegen we samen tot één
     les met een cancelled-vlag, zodat niets dubbel in het rooster verschijnt.
     """
     cancelled = [e for e in events if e.get("status") == "CANCELLED"]
@@ -216,10 +217,23 @@ def fetch_ics_text(url: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 
+def _stable_id(e: dict) -> str:
+    """Een ID dat stabiel blijft tussen twee ophaalbeurten, zodat een door
+    jou toegevoegde link/notitie bij dezelfde les blijft horen ook al
+    verandert het rooster elk uur. Gebruikt Zermelo's eigen UID als die er
+    is; anders een korte hash van datum+tijd+titel als terugvaloptie."""
+    uid = e.get("uid")
+    if uid:
+        return "uid:" + uid
+    basis = f"{e['start'].isoformat()}|{e.get('summary','')}"
+    return "h:" + hashlib.sha1(basis.encode("utf-8")).hexdigest()[:16]
+
+
 def to_json_records(events: list[dict]) -> list[dict]:
     records = []
     for e in events:
         records.append({
+            "id": _stable_id(e),
             "date": e["start"].strftime("%Y-%m-%d"),
             "start": e["start"].strftime("%H:%M"),
             "end": (e["end"] or e["start"]).strftime("%H:%M"),

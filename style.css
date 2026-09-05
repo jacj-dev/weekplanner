@@ -53,9 +53,212 @@ footer {
   font-size: 0.9em;
 }
 
-.lessen-lijst { list-style: none; }
-.les { display: flex; gap: 12px; padding: 6px 0; border-bottom: 1px solid #eee; }
-.les-tijd { font-weight: bold; min-width: 100px; }
-.les.vervallen { opacity: 0.5; text-decoration: line-through; }
-.les.gewijzigd .les-titel::after { content: " (gewijzigd)"; color: #b5651d; font-weight: normal; }
-.les-label { margin-left: auto; font-size: 0.85em; color: #888; }
+/* -------------------------------------------------------------------
+   Rooster: lijst met lessen per dag
+   ------------------------------------------------------------------- */
+
+.token-knop {
+  background-color: transparent;
+  border: 1px solid #2b6777;
+  color: #2b6777;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.token-knop:hover {
+  background-color: #e6f0f2;
+}
+
+.lessen-lijst {
+  list-style: none;
+}
+
+.les {
+  border-bottom: 1px solid #eee;
+}
+
+.les-kop {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 4px;
+  cursor: pointer;
+}
+
+.les-kop:hover {
+  background-color: #f0f0f0;
+}
+
+.les-tijd {
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.les-titel {
+  flex: 1;
+}
+
+.les.vervallen .les-kop {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.les.gewijzigd .les-titel::after {
+  content: " (gewijzigd)";
+  color: #b5651d;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.les-label {
+  font-size: 0.85em;
+  color: #888;
+}
+
+.les-linkbadge {
+  font-size: 0.8em;
+  background-color: #e6f0f2;
+  color: #2b6777;
+  padding: 2px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.les-pijl {
+  display: inline-block;
+  transition: transform 0.15s ease;
+  color: #888;
+}
+
+.les.open .les-pijl {
+  transform: rotate(90deg);
+}
+
+.les-detail {
+  display: none;
+  padding: 4px 4px 16px 4px;
+}
+
+.les.open .les-detail {
+  display: block;
+}
+
+.les-wijziging {
+  background-color: #fff4e5;
+  border-left: 3px solid #b5651d;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  font-size: 0.9em;
+}
+
+.les-detail label {
+  display: block;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: #555;
+  margin: 10px 0 4px;
+}
+
+.les-notitieveld {
+  width: 100%;
+  min-height: 60px;
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 0.95em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.links-lijst {
+  margin-bottom: 8px;
+}
+
+.links-leeg {
+  color: #888;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.link-rij {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0;
+}
+
+.link-naam {
+  flex: 1;
+}
+
+.link-rij a {
+  color: #2b6777;
+  font-size: 0.9em;
+}
+
+.link-rij button {
+  background: none;
+  border: none;
+  color: #b00020;
+  font-size: 1.1em;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.nieuwe-link-rij {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.nieuwe-link-rij select,
+.nieuwe-link-rij input {
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.nieuwe-link-rij input[type="text"] {
+  flex: 1;
+  min-width: 140px;
+}
+
+.nieuwe-link-rij button {
+  background-color: #2b6777;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.opslaan-rij {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.opslaan-knop {
+  background-color: #2b6777;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.opslaan-knop:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.opslaan-status {
+  font-size: 0.85em;
+  color: #555;
+}
