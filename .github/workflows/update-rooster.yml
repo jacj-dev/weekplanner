@@ -1,0 +1,44 @@
+name: Rooster verversen
+
+# Wanneer deze taak draait:
+# - "schedule": automatisch, elk heel uur (tijden hieronder zijn in UTC!)
+# - "workflow_dispatch": zodat je 'm ook handmatig kunt starten via het
+#   tabblad "Actions" op GitHub, bijvoorbeeld om meteen te testen
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+# Nodig zodat deze taak het bijgewerkte rooster-bestand mag terugzetten
+# (committen) in de repository
+permissions:
+  contents: write
+
+jobs:
+  update-rooster:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository ophalen
+        uses: actions/checkout@v4
+
+      - name: Python installeren
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rooster ophalen en omzetten naar data/rooster.json
+        env:
+          ZERMELO_ICAL_URL: ${{ secrets.ZERMELO_ICAL_URL }}
+        run: python website-scripts/fetch_rooster.py
+
+      - name: Wijziging committen (alleen als er iets veranderd is)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/rooster.json
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen in het rooster."
+          else
+            git commit -m "Rooster automatisch bijgewerkt"
+            git push
+          fi

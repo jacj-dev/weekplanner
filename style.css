@@ -52,3 +52,10 @@ footer {
   color: #777;
   font-size: 0.9em;
 }
+
+.lessen-lijst { list-style: none; }
+.les { display: flex; gap: 12px; padding: 6px 0; border-bottom: 1px solid #eee; }
+.les-tijd { font-weight: bold; min-width: 100px; }
+.les.vervallen { opacity: 0.5; text-decoration: line-through; }
+.les.gewijzigd .les-titel::after { content: " (gewijzigd)"; color: #b5651d; font-weight: normal; }
+.les-label { margin-left: auto; font-size: 0.85em; color: #888; }
