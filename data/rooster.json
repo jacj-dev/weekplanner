@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-09-05T15:03:05",
+  "generated_at": "2026-09-05T16:03:09",
   "lessons": [
     {
+      "id": "uid:1830139@arentheem",
       "date": "2026-08-31",
       "start": "10:30",
       "end": "11:15",
@@ -12,6 +13,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830617@arentheem",
       "date": "2026-08-31",
       "start": "11:15",
       "end": "12:00",
@@ -22,6 +24,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830515@arentheem",
       "date": "2026-08-31",
       "start": "12:00",
       "end": "12:45",
@@ -32,6 +35,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830645@arentheem",
       "date": "2026-08-31",
       "start": "13:15",
       "end": "14:00",
@@ -42,6 +46,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830543@arentheem",
       "date": "2026-08-31",
       "start": "14:00",
       "end": "14:45",
@@ -52,6 +57,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830720@arentheem",
       "date": "2026-09-01",
       "start": "08:30",
       "end": "08:45",
@@ -62,6 +68,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830616@arentheem",
       "date": "2026-09-01",
       "start": "08:45",
       "end": "09:30",
@@ -72,6 +79,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830976@arentheem",
       "date": "2026-09-02",
       "start": "08:45",
       "end": "09:30",
@@ -82,6 +90,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831104@arentheem",
       "date": "2026-09-02",
       "start": "09:30",
       "end": "10:15",
@@ -92,6 +101,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831269@arentheem",
       "date": "2026-09-02",
       "start": "10:30",
       "end": "11:15",
@@ -102,6 +112,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831783@arentheem",
       "date": "2026-09-02",
       "start": "11:15",
       "end": "12:00",
@@ -112,6 +123,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831233@arentheem",
       "date": "2026-09-02",
       "start": "12:00",
       "end": "12:45",
@@ -122,6 +134,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831349@arentheem",
       "date": "2026-09-02",
       "start": "13:15",
       "end": "14:00",
@@ -132,6 +145,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831338@arentheem",
       "date": "2026-09-02",
       "start": "14:00",
       "end": "14:45",
@@ -142,6 +156,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831397@arentheem",
       "date": "2026-09-02",
       "start": "15:00",
       "end": "15:45",
@@ -152,6 +167,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830257@arentheem",
       "date": "2026-09-03",
       "start": "08:45",
       "end": "09:30",
@@ -162,6 +178,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1830862@arentheem",
       "date": "2026-09-03",
       "start": "09:30",
       "end": "10:15",
@@ -172,6 +189,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831094@arentheem",
       "date": "2026-09-03",
       "start": "10:15",
       "end": "11:00",
@@ -182,6 +200,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831779@arentheem",
       "date": "2026-09-03",
       "start": "12:30",
       "end": "13:15",
@@ -192,6 +211,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831682@arentheem",
       "date": "2026-09-03",
       "start": "13:15",
       "end": "14:00",
@@ -202,6 +222,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831716@arentheem",
       "date": "2026-09-03",
       "start": "14:00",
       "end": "14:45",
@@ -212,6 +233,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1831633@arentheem",
       "date": "2026-09-03",
       "start": "15:00",
       "end": "15:45",
@@ -222,6 +244,7 @@
       "change_note": "Het lokaal is gewijzigd (was v325)."
     },
     {
+      "id": "uid:1868929@arentheem",
       "date": "2026-09-03",
       "start": "15:00",
       "end": "15:45",
@@ -232,6 +255,7 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1832440@arentheem",
       "date": "2026-09-07",
       "start": "10:30",
       "end": "11:15",
@@ -242,6 +266,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832278@arentheem",
       "date": "2026-09-07",
       "start": "11:15",
       "end": "12:00",
@@ -252,6 +277,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1831969@arentheem",
       "date": "2026-09-07",
       "start": "12:00",
       "end": "12:45",
@@ -262,6 +288,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832392@arentheem",
       "date": "2026-09-07",
       "start": "13:15",
       "end": "14:00",
@@ -272,6 +299,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832371@arentheem",
       "date": "2026-09-07",
       "start": "14:00",
       "end": "14:45",
@@ -282,6 +310,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832055@arentheem",
       "date": "2026-09-08",
       "start": "08:30",
       "end": "08:45",
@@ -292,6 +321,7 @@
       "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
+      "id": "uid:1832109@arentheem",
       "date": "2026-09-08",
       "start": "08:45",
       "end": "09:30",
@@ -302,6 +332,7 @@
       "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
+      "id": "uid:1832705@arentheem",
       "date": "2026-09-09",
       "start": "08:45",
       "end": "09:30",
@@ -312,6 +343,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832857@arentheem",
       "date": "2026-09-09",
       "start": "09:30",
       "end": "10:15",
@@ -322,6 +354,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832611@arentheem",
       "date": "2026-09-09",
       "start": "10:30",
       "end": "11:15",
@@ -332,6 +365,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833368@arentheem",
       "date": "2026-09-09",
       "start": "11:15",
       "end": "12:00",
@@ -342,6 +376,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832787@arentheem",
       "date": "2026-09-09",
       "start": "12:00",
       "end": "12:45",
@@ -352,6 +387,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833420@arentheem",
       "date": "2026-09-09",
       "start": "13:15",
       "end": "14:00",
@@ -362,6 +398,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833083@arentheem",
       "date": "2026-09-09",
       "start": "14:00",
       "end": "14:45",
@@ -372,6 +409,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833325@arentheem",
       "date": "2026-09-09",
       "start": "15:00",
       "end": "15:45",
@@ -382,6 +420,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832154@arentheem",
       "date": "2026-09-10",
       "start": "08:45",
       "end": "09:30",
@@ -392,6 +431,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1832413@arentheem",
       "date": "2026-09-10",
       "start": "09:30",
       "end": "10:15",
@@ -402,6 +442,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833340@arentheem",
       "date": "2026-09-10",
       "start": "10:15",
       "end": "11:00",
@@ -412,6 +453,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833193@arentheem",
       "date": "2026-09-10",
       "start": "12:30",
       "end": "13:15",
@@ -422,6 +464,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833081@arentheem",
       "date": "2026-09-10",
       "start": "13:15",
       "end": "14:00",
@@ -432,6 +475,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833209@arentheem",
       "date": "2026-09-10",
       "start": "14:00",
       "end": "14:45",
@@ -442,6 +486,7 @@
       "change_note": null
     },
     {
+      "id": "uid:1833275@arentheem",
       "date": "2026-09-10",
       "start": "15:00",
       "end": "15:45",
