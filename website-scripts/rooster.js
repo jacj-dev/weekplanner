@@ -14,18 +14,33 @@ async function laadRooster() {
   }
 }
 
+// Geeft vandaag terug als "YYYY-MM-DD", in dezelfde vorm als les.date
+function vandaagStr() {
+  const nu = new Date();
+  const jaar = nu.getFullYear();
+  const maand = String(nu.getMonth() + 1).padStart(2, "0");
+  const dag = String(nu.getDate()).padStart(2, "0");
+  return `${jaar}-${maand}-${dag}`;
+}
+
 function toonRooster(lessen, container) {
   container.innerHTML = "";
 
+  // Alleen vandaag en de toekomst tonen -- lessen die al gegeven zijn (of
+  // vervallen zijn en al voorbij zijn) hoeven hier niet meer te staan.
+  const vandaag = vandaagStr();
+  const komendeLessen = lessen.filter((les) => les.date >= vandaag);
+
+  // Groepeer de lessen per datum
   const perDag = {};
-  for (const les of lessen) {
+  for (const les of komendeLessen) {
     if (!perDag[les.date]) perDag[les.date] = [];
     perDag[les.date].push(les);
   }
 
   const datums = Object.keys(perDag).sort();
   if (datums.length === 0) {
-    container.textContent = "Nog geen lessen gevonden.";
+    container.textContent = "Geen aankomende lessen gevonden.";
     return;
   }
 
@@ -47,7 +62,7 @@ function toonRooster(lessen, container) {
 
       const tijd = document.createElement("span");
       tijd.className = "les-tijd";
-      tijd.textContent = `${les.start}\u2013${les.end}`;
+      tijd.textContent = `${les.start}–${les.end}`;
 
       const titel = document.createElement("span");
       titel.className = "les-titel";
