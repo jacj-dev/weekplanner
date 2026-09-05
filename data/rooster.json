@@ -1,0 +1,455 @@
+{
+  "generated_at": "2026-09-05T14:08:19",
+  "lessons": [
+    {
+      "date": "2026-08-31",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "v326_wi wi lv1d",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-08-31",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "e111 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-08-31",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "e111 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-08-31",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v322_ne bi lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-08-31",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v322_ne wi lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-01",
+      "start": "08:30",
+      "end": "08:45",
+      "summary": "v044_en verg",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-01",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v044_en verg",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v216_bi bi lpv2",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "v216_bi wi lpv2",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "v216_bi wi lv1d",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "v216_bi rek lv1d",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "e008 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v216_bi wi lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v216_bi bi lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-02",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "e008 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-03",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "p214 wi lpv2",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-03",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "p214 bi lpv2",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-03",
+      "start": "10:15",
+      "end": "11:00",
+      "summary": "e016 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-03",
+      "start": "12:30",
+      "end": "13:15",
+      "summary": "v325 rek lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-03",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v325 wi lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-03",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v325 wi lv1d",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-03",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Het lokaal is gewijzigd (was v325)."
+    },
+    {
+      "date": "2026-09-03",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "v325 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "date": "2026-09-07",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "v326_wi wi lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-07",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "e111 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-07",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "e111 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-07",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v322_ne bi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-07",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v322_ne wi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-08",
+      "start": "08:30",
+      "end": "08:45",
+      "summary": "v044_en verg",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
+    },
+    {
+      "date": "2026-09-08",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v044_en verg",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
+    },
+    {
+      "date": "2026-09-09",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v216_bi bi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-09",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "v216_bi wi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-09",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "v216_bi wi lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-09",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "v216_bi rek lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-09",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "e013 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-09",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "e013 wi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-09",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "e013 bi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-09",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-10",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "p214 wi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-10",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "p214 bi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-10",
+      "start": "10:15",
+      "end": "11:00",
+      "summary": "e016 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-10",
+      "start": "12:30",
+      "end": "13:15",
+      "summary": "v325 rek lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-10",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v325 wi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-10",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v325 wi lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "date": "2026-09-10",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    }
+  ]
+}
