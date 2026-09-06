@@ -43,5 +43,28 @@
         "target": "https://cogonderwijs.sharepoint.com/:b:/r/sites/LEENB/Gedeelde%20documenten/General/Biologie/Klas%203/Mavo/Antwoordenboek/BVJ_3GT_UWB_deel%20B.pdf?d=we02be431a3fd46b78e2cac2d1a07204c&csf=1&web=1&e=xKTemo"
       }
     ]
+  },
+  "uid:1832278@arentheem": {
+    "notitie": "Hw controleren: Bs 2.\nDonderdag SO Bs. 1 t/m 3\n",
+    "links": [
+      {
+        "id": "157813ec",
+        "type": "url",
+        "label": "T1_bs3 Cellen van dieren en planten_3GT",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Vs9GL-BK/T1_bs3%20Cellen%20van%20dieren%20en%20planten_3GT.pptx?d=w01c203a3ad904d84ad54948597751e66&csf=1&web=1&e=Hiky4T"
+      },
+      {
+        "id": "e1293fed",
+        "type": "url",
+        "label": "Online boek T1 Bs3 Cellen van dieren en planten",
+        "target": "https://view.publitas.com/malmberg/605383-01_bvj_3gt_lob_a_bladerboek/page/22-23/"
+      },
+      {
+        "id": "1266d6d0",
+        "type": "url",
+        "label": "Online les Bs3 Cellen van dieren en planten",
+        "target": "https://bvj.secure.malmberg.nl/stream/3_vmbo-gt_2022/lessons/material-chapter/es:880A5300-DB39-44BA-8C78-82ADB33DFC87/material-paragraph/es:A6842052-09A4-440C-8C4F-A603AC393163/lesson/es:FBFD1D2F-2305-4BAC-87CE-EC8CD1FC474E?streamId=3_vmbo-gt_2022"
+      }
+    ]
   }
 }
