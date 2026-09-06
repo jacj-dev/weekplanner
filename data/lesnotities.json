@@ -83,5 +83,22 @@
         "target": "ms-powerpoint:ofe|u|https://cogonderwijs.sharepoint.com/:p:/r/sites/LEENB/Gedeelde%20documenten/General/Biologie/Klas%201/BK/T1%20Planten%20en%20dieren/T1_bs3_ontwikkeling.pptx?d=we969bc44a0174f42a4bc9f8ef35d0581&csf=1&web=1&e=LIFO97"
       }
     ]
+  },
+  "uid:1832371@arentheem": {
+    "notitie": "Boeken controleren",
+    "links": [
+      {
+        "id": "7239aa01",
+        "type": "url",
+        "label": "Sheets 1BK1-PPT-H01-2-ThD",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/GR14-1BK1-PPT-H01-2-ThD.pptx?d=we6164dc3564c413ab0eb9199040fcbf8&csf=1&web=1&e=U4eWes"
+      },
+      {
+        "id": "085d1451",
+        "type": "url",
+        "label": "Sheets theorie E Uitslag vierkant",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/GR14-1BK1-PPT-H01-2-ThE.pptx?d=wd246315ad8194b79b5d0dec716ac7d40&csf=1&web=1&e=anBZQT"
+      }
+    ]
   }
 }
