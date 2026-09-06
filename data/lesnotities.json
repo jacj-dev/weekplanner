@@ -66,5 +66,22 @@
         "target": "https://bvj.secure.malmberg.nl/stream/3_vmbo-gt_2022/lessons/material-chapter/es:880A5300-DB39-44BA-8C78-82ADB33DFC87/material-paragraph/es:A6842052-09A4-440C-8C4F-A603AC393163/lesson/es:FBFD1D2F-2305-4BAC-87CE-EC8CD1FC474E?streamId=3_vmbo-gt_2022"
       }
     ]
+  },
+  "uid:1832392@arentheem": {
+    "notitie": "",
+    "links": [
+      {
+        "id": "2403c3c2",
+        "type": "url",
+        "label": "Online boek T1 Bs3 Ontwikkeling",
+        "target": "https://view.publitas.com/malmberg/596101_bvj_1bk_lwb_a_bladerboek/page/28-29"
+      },
+      {
+        "id": "69281dfa",
+        "type": "url",
+        "label": "Sheets T1_bs3_ontwikkeling",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs.sharepoint.com/:p:/r/sites/LEENB/Gedeelde%20documenten/General/Biologie/Klas%201/BK/T1%20Planten%20en%20dieren/T1_bs3_ontwikkeling.pptx?d=we969bc44a0174f42a4bc9f8ef35d0581&csf=1&web=1&e=LIFO97"
+      }
+    ]
   }
 }
