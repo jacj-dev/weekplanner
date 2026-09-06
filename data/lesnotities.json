@@ -20,5 +20,28 @@
         "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1KGT/1_2%20Theorie%20D%20Vierkant_.pptx?d=w6f4f5dc9ee6944c9a837cf761a1e3f7a&csf=1&web=1&e=ptzb3b"
       }
     ]
+  },
+  "uid:1831969@arentheem": {
+    "notitie": "Woensdag SO Bs 1 t/m 3",
+    "links": [
+      {
+        "id": "0a4a9f83",
+        "type": "url",
+        "label": "Online BVJ T5 Bs4 Spieren",
+        "target": "https://view.publitas.com/malmberg/598786-01_bvj_3gt_lob_b_bladerboek/page/30-31"
+      },
+      {
+        "id": "eb2a4d32",
+        "type": "url",
+        "label": "Online les Bs4",
+        "target": "https://bvj.secure.malmberg.nl/stream/3_vmbo-gt_2022/lessons/material-chapter/es:1FD401E8-8023-482C-9698-483E6996B934/material-paragraph/es:8EB2F2FD-A5B7-48DE-BDBA-E38875F64817/lesson/es:A53AB54E-AC2F-4F92-A2F2-07EB3196EAA6?streamId=3_vmbo-gt_2022"
+      },
+      {
+        "id": "22e25f68",
+        "type": "url",
+        "label": "Antwoordenboek vmbo-gt 3B",
+        "target": "https://cogonderwijs.sharepoint.com/:b:/r/sites/LEENB/Gedeelde%20documenten/General/Biologie/Klas%203/Mavo/Antwoordenboek/BVJ_3GT_UWB_deel%20B.pdf?d=we02be431a3fd46b78e2cac2d1a07204c&csf=1&web=1&e=xKTemo"
+      }
+    ]
   }
 }
