@@ -11,13 +11,19 @@
     ]
   },
   "uid:1832440@arentheem": {
-    "notitie": "Hoi ik ben een notitie",
+    "notitie": "Vragen huiswerk?\nVandaag paragraaf 2 afmaken. \nHuiswerk volgende voor woensdag: \n",
     "links": [
       {
         "id": "cd937308",
         "type": "url",
         "label": "1_2 Theorie D Vierkant_.pptx",
         "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1KGT/1_2%20Theorie%20D%20Vierkant_.pptx?d=w6f4f5dc9ee6944c9a837cf761a1e3f7a&csf=1&web=1&e=ptzb3b"
+      },
+      {
+        "id": "772e2287",
+        "type": "url",
+        "label": "1_2 Theorie E Uitslag kubus_.pptx",
+        "target": "https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1KGT/1_2%20Theorie%20E%20Uitslag%20kubus_.pptx?d=w2b3b485a003e45c89c106b4d3d4137f7&csf=1&web=1&e=uRs0RO"
       }
     ]
   }
