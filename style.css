@@ -208,6 +208,20 @@ footer {
   line-height: 1;
 }
 
+.link-geblokkeerd {
+  color: #b00020 !important;
+  font-size: 0.85em;
+  font-style: italic;
+  cursor: default;
+  text-decoration: none;
+}
+
+.nieuwe-link-fout {
+  color: #b00020;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+}
+
 .nieuwe-link-rij {
   display: flex;
   flex-wrap: wrap;
