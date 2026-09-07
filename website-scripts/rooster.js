@@ -48,14 +48,18 @@ function zorgVoorToken() {
 // schrijven heeft een token met "Contents: Read and write" nodig.
 // ---------------------------------------------------------------------
 
-// Staat alleen http(s)/mailto-links en relatieve paden (bv. "materialen/x.pptx")
-// toe als link-doel. Blokkeert bv. "javascript:...", zodat een kwaadwillend
-// geschreven link nooit script kan uitvoeren als iemand er per ongeluk op klikt.
+// Blokkeert alleen de handjevol schema's die in een browser code kunnen
+// uitvoeren (javascript:/vbscript:) of om andere redenen riskant zijn
+// (data: kan een compleet HTML-document met script bevatten). Alles anders
+// -- https://, mailto:, relatieve paden zoals "materialen/x.pptx", maar ook
+// ms-word:/ms-excel:/ms-powerpoint: (de "open direct in de desktop-app"-
+// trucjes) -- blijft gewoon toegestaan.
+const GEVAARLIJKE_LINKSCHEMAS_RE = /^(javascript|vbscript|data):/i;
+
 function isVeiligeLinkTarget(target) {
   const t = (target || "").trim();
   if (!t) return false;
-  if (!/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(t)) return true; // geen "schema:" -> relatief pad
-  return /^(https?|mailto):/i.test(t);
+  return !GEVAARLIJKE_LINKSCHEMAS_RE.test(t);
 }
 
 function b64EncodeUtf8(str) {
