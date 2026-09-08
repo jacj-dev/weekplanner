@@ -128,5 +128,28 @@
         "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1BK/H3%20Assenstelsels/GR13_1BK1_PPT_H03_4_Assenstelsel_tekenen.pptx?d=wcabc7c8384c24105909ef889618190b2&csf=1&web=1&e=wi7erB"
       }
     ]
+  },
+  "uid:1832611@arentheem": {
+    "notitie": "",
+    "links": [
+      {
+        "id": "c78153a1",
+        "type": "url",
+        "label": "1_3 Theorie G Rechthoek_",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1KGT/1_3%20Theorie%20G%20Rechthoek_.pptx?d=w399ddbd280894b21960d10e42867f942&csf=1&web=1&e=FraS4i"
+      },
+      {
+        "id": "fde70ca7",
+        "type": "url",
+        "label": "1_3 Theorie F Balk_",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1KGT/1_3%20Theorie%20F%20Balk_.pptx?d=w3c97d03f08fa4dd2a3661d501644bee0&csf=1&web=1&e=5FigHN"
+      },
+      {
+        "id": "69aa594a",
+        "type": "url",
+        "label": "1_3 Theorie H Uitslag balk_",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1KGT/1_3%20Theorie%20H%20Uitslag%20balk_.pptx?d=wd5a553a311234070a621d80b3202c3bd&csf=1&web=1&e=NL1wjg"
+      }
+    ]
   }
 }
