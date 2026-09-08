@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T11:03:32",
+  "generated_at": "2026-09-08T14:04:08",
   "lessons": [
     {
       "id": "uid:1832440@arentheem",
@@ -55,28 +55,6 @@
       "cancelled": false,
       "changed": false,
       "change_note": null
-    },
-    {
-      "id": "uid:1832055@arentheem",
-      "date": "2026-09-08",
-      "start": "08:30",
-      "end": "08:45",
-      "summary": "v044_en verg",
-      "location": "",
-      "cancelled": true,
-      "changed": false,
-      "change_note": "Les vervalt"
-    },
-    {
-      "id": "uid:1832109@arentheem",
-      "date": "2026-09-08",
-      "start": "08:45",
-      "end": "09:30",
-      "summary": "v044_en verg",
-      "location": "",
-      "cancelled": true,
-      "changed": false,
-      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1832705@arentheem",
@@ -141,8 +119,8 @@
       "summary": "v216_bi wi lv1a",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Het lokaal is gewijzigd (was e013)."
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1833083@arentheem",
@@ -152,8 +130,8 @@
       "summary": "v216_bi bi lv1a",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Het lokaal is gewijzigd (was e013)."
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1833325@arentheem",
@@ -174,8 +152,8 @@
       "summary": "v219 wi lpv2",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Het lokaal is gewijzigd (was p214)."
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1832413@arentheem",
@@ -185,8 +163,8 @@
       "summary": "v219 bi lpv2",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Het lokaal is gewijzigd (was p214)."
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1833340@arentheem",
