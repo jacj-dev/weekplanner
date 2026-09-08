@@ -227,7 +227,14 @@
     ]
   },
   "uid:1833368@arentheem": {
-    "notitie": "H2 Negatieve getallen",
-    "links": []
+    "notitie": "H2 Negatieve getallen\nZorgen dat iedereen is ingecheckt.",
+    "links": [
+      {
+        "id": "7c339f98",
+        "type": "url",
+        "label": "Dashboard SR LV1d",
+        "target": "https://www.eduhint.nl/docentomgeving/nl-NL/2848236948/13836897383/dashboard/?userOrGroupId=2328209932"
+      }
+    ]
   }
 }
