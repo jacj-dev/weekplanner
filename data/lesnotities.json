@@ -151,5 +151,34 @@
         "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1KGT/1_3%20Theorie%20H%20Uitslag%20balk_.pptx?d=wd5a553a311234070a621d80b3202c3bd&csf=1&web=1&e=NL1wjg"
       }
     ]
+  },
+  "uid:1833420@arentheem": {
+    "notitie": "Maken tot en met opgave 63. Einde les peilen hoe ver iedereen is.",
+    "links": [
+      {
+        "id": "d888eb53",
+        "type": "url",
+        "label": "1_3 Theorie F Balk",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1BK/H1%20Ruimtefiguren/1_3%20Theorie%20F%20Balk%20.pptx?d=wb607246938654a5abea151677448b115&csf=1&web=1&e=N6X5JO"
+      },
+      {
+        "id": "498db71e",
+        "type": "url",
+        "label": "1_3 Theorie G Lichaamsdiagonaal",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1BK/H1%20Ruimtefiguren/1_3%20Theorie%20G%20Lichaamsdiagonaal%20.pptx?d=w09f3a35cd5584037a341a8e59dd0cf37&csf=1&web=1&e=B3aRUn"
+      },
+      {
+        "id": "6a533fd9",
+        "type": "url",
+        "label": "1_3 Theorie H Rechthoek",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1BK/H1%20Ruimtefiguren/1_3%20Theorie%20H%20Rechthoek%20.pptx?d=wcaebb084a8cd40898ebf9dc6271a281f&csf=1&web=1&e=dlVHZ8"
+      },
+      {
+        "id": "aeabcec5",
+        "type": "url",
+        "label": "1_3 Theorie I Uitslag balk",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Wiskunde/1BK/H1%20Ruimtefiguren/1_3%20Theorie%20I%20Uitslag%20balk%20.pptx?d=wa6cd0d4c3f5748a7ada5600fc79a9a92&csf=1&web=1&e=6DOaLQ"
+      }
+    ]
   }
 }
