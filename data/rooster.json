@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:03:06",
+  "generated_at": "2026-09-10T10:03:15",
   "lessons": [
     {
       "id": "uid:1832440@arentheem",
@@ -284,8 +284,8 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": false,
-      "change_note": null
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
       "id": "uid:1834145@arentheem",
@@ -295,8 +295,8 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": false,
-      "change_note": null
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
       "id": "uid:1834540@arentheem",
