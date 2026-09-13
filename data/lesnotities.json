@@ -276,7 +276,14 @@
     "links": []
   },
   "uid:1834401@arentheem": {
-    "notitie": "Bs. 1.4 Chromosomen \n",
-    "links": []
+    "notitie": "testest",
+    "links": [
+      {
+        "id": "0d906292",
+        "type": "url",
+        "label": "Online boek Bs. 1.4",
+        "target": "https://view.publitas.com/malmberg/605383-01_bvj_3gt_lob_a_bladerboek/page/28-29"
+      }
+    ]
   }
 }
