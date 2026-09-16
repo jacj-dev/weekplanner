@@ -318,7 +318,14 @@
   },
   "uid:1835108@arentheem": {
     "notitie": "Quiz Paragraaf ... ?\nSO cijfers teruggeven",
-    "links": []
+    "links": [
+      {
+        "id": "1e17ed68",
+        "type": "url",
+        "label": "LessonUp les",
+        "target": "https://www.lessonup.com/nl/lesson/Zy9grwKz7Hy89dcYP?utm_source=new-app&utm_campaign=shared-lesson-app&utm_content=1789590035673&utm_medium=shared-link"
+      }
+    ]
   },
   "uid:1835152@arentheem": {
     "notitie": "Elke leerling even nagaan in de les",
