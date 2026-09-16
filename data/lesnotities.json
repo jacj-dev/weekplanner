@@ -303,7 +303,14 @@
   },
   "uid:1833622@arentheem": {
     "notitie": "Basisstof 7",
-    "links": []
+    "links": [
+      {
+        "id": "85d30fa0",
+        "type": "url",
+        "label": "Online Basisstof 7",
+        "target": "https://view.publitas.com/malmberg/596101_bvj_1bk_lwb_a_bladerboek/page/116-117"
+      }
+    ]
   },
   "uid:1834949@arentheem": {
     "notitie": "Hoe ging het practicum?",
