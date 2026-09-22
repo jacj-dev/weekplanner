@@ -359,8 +359,15 @@
     "links": []
   },
   "uid:1836214@arentheem": {
-    "notitie": "Toets bespreken\n",
-    "links": []
+    "notitie": "Toets bespreken\nH4 Getallen, waar waren we?\n",
+    "links": [
+      {
+        "id": "5f2b493b",
+        "type": "url",
+        "label": "H4 Getallen Online",
+        "target": "https://apps.noordhoff.nl/se/content/book/6bd582ce-84cc-42be-93f8-9906efbf8bf5/ebook/ad94420d-8704-4d88-be4d-e9b19891de1a?page=177"
+      }
+    ]
   },
   "uid:1836207@arentheem": {
     "notitie": "Samen of alleen: D-toets",
