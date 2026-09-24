@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:03:00",
+  "generated_at": "2026-09-24T11:03:09",
   "lessons": [
     {
       "id": "uid:1835906@arentheem",
@@ -244,6 +244,28 @@
       "change_note": null
     },
     {
+      "id": "uid:1888366@arentheem",
+      "date": "2026-09-28",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "Act lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten:  wordt coef,jacj."
+    },
+    {
+      "id": "uid:1888557@arentheem",
+      "date": "2026-09-28",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "Act lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten:  wordt coef,jacj."
+    },
+    {
       "id": "uid:1866049@arentheem",
       "date": "2026-09-28",
       "start": "10:30",
@@ -255,15 +277,26 @@
       "change_note": "Les vervalt"
     },
     {
+      "id": "uid:1888405@arentheem",
+      "date": "2026-09-28",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "Act lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten:  wordt coef,jacj."
+    },
+    {
       "id": "uid:1865958@arentheem",
       "date": "2026-09-28",
       "start": "11:15",
       "end": "12:00",
       "summary": "e111 bi vs9m.bi1 vs9k.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1866024@arentheem",
@@ -272,9 +305,20 @@
       "end": "12:45",
       "summary": "e111 bi vs10k.bi1 vs10m.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
+    },
+    {
+      "id": "uid:1888428@arentheem",
+      "date": "2026-09-28",
+      "start": "12:30",
+      "end": "13:15",
+      "summary": "Act lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten:  wordt coef,jacj."
     },
     {
       "id": "uid:1866173@arentheem",
@@ -407,6 +451,39 @@
       "cancelled": false,
       "changed": false,
       "change_note": null
+    },
+    {
+      "id": "uid:1888823@arentheem",
+      "date": "2026-09-30",
+      "start": "15:45",
+      "end": "16:30",
+      "summary": "Act lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten:  wordt jacj,sids."
+    },
+    {
+      "id": "uid:1887744@arentheem",
+      "date": "2026-09-30",
+      "start": "16:30",
+      "end": "17:15",
+      "summary": "Act lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten:  wordt jacj,sids."
+    },
+    {
+      "id": "uid:1888741@arentheem",
+      "date": "2026-09-30",
+      "start": "17:15",
+      "end": "18:00",
+      "summary": "Act lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten:  wordt jacj,sids."
     },
     {
       "id": "uid:1867200@arentheem",
