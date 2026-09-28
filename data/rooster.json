@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:03:48",
+  "generated_at": "2026-09-28T12:03:50",
   "lessons": [
     {
       "id": "uid:1888366@arentheem",
@@ -288,6 +288,17 @@
       "change_note": null
     },
     {
+      "id": "uid:1867317@arentheem",
+      "date": "2026-10-01",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "e015 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Het lokaal is gewijzigd (was e013) en de les is verplaatst (komt van do 15:00u)."
+    },
+    {
       "id": "uid:1867283@arentheem",
       "date": "2026-10-01",
       "start": "12:30",
@@ -319,17 +330,6 @@
       "cancelled": true,
       "changed": false,
       "change_note": "Les vervalt"
-    },
-    {
-      "id": "uid:1867317@arentheem",
-      "date": "2026-10-01",
-      "start": "15:00",
-      "end": "15:45",
-      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
     },
     {
       "id": "uid:1869920@arentheem",
