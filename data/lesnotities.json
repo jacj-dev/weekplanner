@@ -411,5 +411,16 @@
   "uid:1866828@arentheem": {
     "notitie": "Microscooppracticum\nMaterialen: schaartjes, object- en dekglazen, prepareernaald, pipetjes, waterglas, waterpest\nPrinten: foto's \nLege A4'tjes\nLinialen\n",
     "links": []
+  },
+  "uid:1866508@arentheem": {
+    "notitie": "Mededeling: Volgende week donderdag herkansing. Namen noteren.\nSamen de afsluitende opdracht doen.\nNieuwe stof: 4.2 Grote getallen.\nSamen de oefenopgaves doen. \nHuiswerk is 4.2 afmaken.",
+    "links": [
+      {
+        "id": "9aa0f637",
+        "type": "bestand",
+        "label": "Ppt 4.2 Grote getallen",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/wiskunde%20LPV2%201bk%20wk5%20les1%20Grote%20getallen.pptx?d=w2c8763d521954c348df10c2e817cd02d&csf=1&web=1&e=Iwf4Hb"
+      }
+    ]
   }
 }
