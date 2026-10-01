@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:06:10",
+  "generated_at": "2026-10-01T08:05:33",
   "lessons": [
     {
       "id": "uid:1888366@arentheem",
@@ -568,6 +568,39 @@
       "start": "15:00",
       "end": "15:45",
       "summary": "e013 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1893799@arentheem",
+      "date": "2026-10-08",
+      "start": "15:45",
+      "end": "16:30",
+      "summary": "Act",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1893793@arentheem",
+      "date": "2026-10-08",
+      "start": "16:30",
+      "end": "17:15",
+      "summary": "Act",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1895810@arentheem",
+      "date": "2026-10-08",
+      "start": "17:15",
+      "end": "18:00",
+      "summary": "Act",
       "location": "",
       "cancelled": false,
       "changed": false,
