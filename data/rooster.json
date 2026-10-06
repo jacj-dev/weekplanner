@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T01:58:18",
+  "generated_at": "2026-10-06T08:33:24",
   "lessons": [
     {
       "id": "uid:1869920@arentheem",
@@ -250,9 +250,9 @@
       "end": "16:30",
       "summary": "Act",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Activiteit vervalt"
     },
     {
       "id": "uid:1893793@arentheem",
@@ -261,9 +261,9 @@
       "end": "17:15",
       "summary": "Act",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Activiteit vervalt"
     },
     {
       "id": "uid:1895810@arentheem",
@@ -272,9 +272,9 @@
       "end": "18:00",
       "summary": "Act",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Activiteit vervalt"
     },
     {
       "id": "uid:1872904@arentheem",
