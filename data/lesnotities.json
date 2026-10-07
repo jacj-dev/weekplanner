@@ -473,7 +473,14 @@
   },
   "uid:1870752@arentheem": {
     "notitie": "Deel van de groep herkanst de toets.\nDeel van de groep ",
-    "links": []
+    "links": [
+      {
+        "id": "ffc8bcba",
+        "type": "url",
+        "label": "H4.3 Afronden ppt",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/wiskunde%20LPV2%201bk%20wk7%20les2%20Afronden.pptx?d=w78ac207f6bfe4ea48f89c7ff78dee04e&csf=1&web=1&e=jnbwK3"
+      }
+    ]
   },
   "uid:1870700@arentheem": {
     "notitie": "Eerste les van het nieuwe hoofdstuk",
