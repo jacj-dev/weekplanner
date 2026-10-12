@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:43:49",
+  "generated_at": "2026-10-12T16:16:30",
   "lessons": [
     {
       "id": "uid:1872904@arentheem",
@@ -127,11 +127,11 @@
       "date": "2026-10-14",
       "start": "12:00",
       "end": "12:45",
-      "summary": "e013 bi vs9m.bi1 vs9k.bi1",
+      "summary": "v216_bi bi vs9m.bi1 vs9k.bi1",
       "location": "",
       "cancelled": false,
-      "changed": false,
-      "change_note": null
+      "changed": true,
+      "change_note": "Het lokaal is gewijzigd (was e013)."
     },
     {
       "id": "uid:1874214@arentheem",
