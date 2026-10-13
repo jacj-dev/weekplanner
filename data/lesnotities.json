@@ -515,7 +515,14 @@
   },
   "uid:1873349@arentheem": {
     "notitie": "Toets teruggeven\nBasisstof 1 samen nakijken\nBasisstof 2 uitleggen\n",
-    "links": []
+    "links": [
+      {
+        "id": "df300e5b",
+        "type": "url",
+        "label": "Ppt T2 Bs. 2 Dieren",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs.sharepoint.com/:p:/r/sites/LEENB/Gedeelde%20documenten/General/Biologie/Klas%201/BK/T3%20Ordening/T3_bs2_Dieren.pptx?d=wc392e9766c804a819d48420a0c7caa94&csf=1&web=1&e=ElkSJr"
+      }
+    ]
   },
   "uid:1873312@arentheem": {
     "notitie": "Huiswerk is Tot en met opgave 61: blz. 184-189\nA-opgave bespreken, evt. andere opgaven. (51 en A52).\n",
