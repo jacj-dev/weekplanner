@@ -563,5 +563,16 @@
   "uid:1873413@arentheem": {
     "notitie": "Microscopiepracticum prei\nBlaadjes uitprinten\nMaterialen klaarzetten: linialen, A4'tjes, schaartje, naald, pipet, filtreerpapier, evt kleurstof\n",
     "links": []
+  },
+  "uid:1873989@arentheem": {
+    "notitie": "Uitprinten zoekkaarten\nTerug naar de klas om de bladeren ordenen\nA3 of A4 meenemen\nBladeren drogen of foto's maken.",
+    "links": [
+      {
+        "id": "00d23316",
+        "type": "url",
+        "label": "Ppt Herfstwandeling",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/r/personal/j_jacobs_arentheemcollege_nl/Documents/Ordening%20Herfstwandeling.pptx?d=waa763bc3ccc1488c93101382f7bf7cf6&csf=1&web=1&e=ckGHBr"
+      }
+    ]
   }
 }
