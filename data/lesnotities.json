@@ -589,6 +589,13 @@
   },
   "uid:1882139@arentheem": {
     "notitie": "samen D-toets maken",
-    "links": []
+    "links": [
+      {
+        "id": "430acb39",
+        "type": "url",
+        "label": "Presentatie D-toets 2.1 t/m 2.3",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQAC28S0s19GS4QFV0eKKXfpAUsPzk5YS87eaRpI0zFZ2qg?e=VXI3wC"
+      }
+    ]
   }
 }
