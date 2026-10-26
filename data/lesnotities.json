@@ -605,5 +605,16 @@
   "uid:1904123@arentheem": {
     "notitie": "Nieuwe stof:\norganen van planten\nT2_bs2_Organen van planten.pptx\n\nToets teruggeven.\nRenas, Valentino, Sabrin, Aynur, Deego, Jenna\nInhalen:",
     "links": []
+  },
+  "uid:1904100@arentheem": {
+    "notitie": "D-toets",
+    "links": [
+      {
+        "id": "38254179",
+        "type": "url",
+        "label": "Antwoorden D-toets",
+        "target": "https://apps.noordhoff.nl/se/beta/lesson/book/38b2b304-0dad-4455-a300-21d17c6a4ff2/ebook/00d5a219-1f03-40b0-bc84-15b9be8d5fb9?page=116"
+      }
+    ]
   }
 }
