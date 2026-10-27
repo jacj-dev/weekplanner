@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:59:39",
+  "generated_at": "2026-10-27T13:01:29",
   "lessons": [
     {
       "id": "uid:1882139@arentheem",
@@ -64,8 +64,8 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,hocr,i"
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1882218@arentheem",
@@ -75,8 +75,30 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,hocr,i"
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1904926@arentheem",
+      "date": "2026-10-28",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v216_bi bi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1905023@arentheem",
+      "date": "2026-10-28",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "v216_bi wi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1882956@arentheem",
@@ -101,48 +123,59 @@
       "change_note": null
     },
     {
+      "id": "uid:1904981@arentheem",
+      "date": "2026-10-28",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "v216_bi bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Het lokaal is gewijzigd (was e013)."
+    },
+    {
       "id": "uid:1904385@arentheem",
       "date": "2026-10-28",
       "start": "12:00",
       "end": "12:45",
       "summary": "e013 bi vs9m.bi1 vs9k.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
-      "id": "uid:1904139@arentheem",
+      "id": "uid:1904989@arentheem",
       "date": "2026-10-28",
       "start": "13:15",
       "end": "14:00",
       "summary": "v216_bi wi lv1a",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
-      "id": "uid:1904008@arentheem",
+      "id": "uid:1904914@arentheem",
       "date": "2026-10-28",
       "start": "14:00",
       "end": "14:45",
       "summary": "v216_bi bi lv1a",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
-      "id": "uid:1904396@arentheem",
+      "id": "uid:1904918@arentheem",
       "date": "2026-10-28",
       "start": "15:00",
       "end": "15:45",
       "summary": "e013 bi vs10k.bi1 vs10m.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1883431@arentheem",
@@ -167,37 +200,48 @@
       "change_note": null
     },
     {
+      "id": "uid:1905095@arentheem",
+      "date": "2026-10-29",
+      "start": "10:15",
+      "end": "11:00",
+      "summary": "c013 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "Het lokaal is gewijzigd (was e016)."
+    },
+    {
       "id": "uid:1904022@arentheem",
       "date": "2026-10-29",
       "start": "10:15",
       "end": "11:00",
       "summary": "e016 bi vs9m.bi1 vs9k.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
-      "id": "uid:1904199@arentheem",
+      "id": "uid:1905159@arentheem",
       "date": "2026-10-29",
       "start": "12:30",
       "end": "13:15",
       "summary": "v325 rek lv1a",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
-      "id": "uid:1904223@arentheem",
+      "id": "uid:1905071@arentheem",
       "date": "2026-10-29",
       "start": "13:15",
       "end": "14:00",
       "summary": "v325 wi lv1a",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1883289@arentheem",
@@ -211,15 +255,15 @@
       "change_note": null
     },
     {
-      "id": "uid:1904007@arentheem",
+      "id": "uid:1905133@arentheem",
       "date": "2026-10-29",
       "start": "15:00",
       "end": "15:45",
       "summary": "e013 bi vs10k.bi1 vs10m.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1885997@arentheem",
