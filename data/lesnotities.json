@@ -658,5 +658,16 @@
         "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQDN29Le5u8LQoTCtJTYYa9dASdrAci2KcRnnZkjUC7Fs1Y?email=j.jacobs%40arentheemcollege.nl&e=aMdfZY"
       }
     ]
+  },
+  "uid:1904022@arentheem": {
+    "notitie": "Les in ICT-lokaal\n",
+    "links": [
+      {
+        "id": "3f1c31ba",
+        "type": "url",
+        "label": "PPT Online BVJ",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQBzXjbQEKNfR5kIr7jyPXXbAeXveHk4_lnSseAN4M8Qj_4?e=3CdkNK"
+      }
+    ]
   }
 }
