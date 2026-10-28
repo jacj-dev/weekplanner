@@ -650,6 +650,13 @@
   },
   "uid:1883353@arentheem": {
     "notitie": "Nakijken basisstof 2 Gewervelde dieren\nBasisstof 3 Planten",
-    "links": []
+    "links": [
+      {
+        "id": "1a08e69a",
+        "type": "url",
+        "label": "PPT 3.3 Planten",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQDN29Le5u8LQoTCtJTYYa9dASdrAci2KcRnnZkjUC7Fs1Y?email=j.jacobs%40arentheemcollege.nl&e=aMdfZY"
+      }
+    ]
   }
 }
