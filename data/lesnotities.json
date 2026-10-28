@@ -639,7 +639,14 @@
   },
   "uid:1883431@arentheem": {
     "notitie": "Afronden oefenen",
-    "links": []
+    "links": [
+      {
+        "id": "1ba45077",
+        "type": "url",
+        "label": "PPT Afronden 4.4",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQCEC3PPIposTa3z29SSsK_YAR7VT9bslwM6XJoSgjCN-nA?email=j.jacobs%40arentheemcollege.nl&e=qpqPPR"
+      }
+    ]
   },
   "uid:1883353@arentheem": {
     "notitie": "Nakijken basisstof 2 Gewervelde dieren\nBasisstof 3 Planten",
