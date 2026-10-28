@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:11:05",
+  "generated_at": "2026-10-28T16:19:58",
   "lessons": [
     {
       "id": "uid:1882139@arentheem",
@@ -404,9 +404,9 @@
       "end": "15:45",
       "summary": "e013 bi vs10k.bi1 vs10m.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1887087@arentheem",
