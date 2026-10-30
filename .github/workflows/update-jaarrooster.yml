@@ -1,13 +1,15 @@
 name: Jaarrooster omzetten
 
-# Draait automatisch zodra je een nieuwe versie van data/jaarrooster.xlsx
-# naar GitHub uploadt (of het omzetscript verandert). Via het tabblad
-# "Actions" kun je 'm ook handmatig starten.
+# Draait automatisch zodra je een Excel-bestand in de map data/ uploadt
+# (of het omzetscript verandert). Het bestand mag elke naam hebben waar
+# "jaarrooster" in zit, bv. JACJ_jaarrooster.xlsx: deze taak hernoemt het
+# zelf naar data/jaarrooster.xlsx. Via het tabblad "Actions" kun je 'm ook
+# handmatig starten.
 on:
   push:
     branches: [main]
     paths:
-      - "data/jaarrooster.xlsx"
+      - "data/*.xlsx"
       - "website-scripts/fetch_jaarrooster.py"
   workflow_dispatch:
 
@@ -26,6 +28,16 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Geüpload bestand hernoemen naar data/jaarrooster.xlsx
+        run: |
+          shopt -s nullglob nocaseglob
+          for f in data/*jaarrooster*.xlsx; do
+            if [ "$f" != "data/jaarrooster.xlsx" ]; then
+              echo "Gevonden: $f -> data/jaarrooster.xlsx"
+              git mv -f "$f" data/jaarrooster.xlsx
+            fi
+          done
+
       - name: Excel-lezer installeren
         run: pip install openpyxl
 
@@ -36,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/jaarrooster.json
+          git add -A data/jaarrooster.xlsx data/jaarrooster.json data/*.xlsx
           if git diff --cached --quiet; then
             echo "Geen wijzigingen in het jaarrooster."
           else
