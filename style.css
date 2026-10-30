@@ -122,6 +122,26 @@ footer {
   border-bottom-style: solid;
 }
 
+/* Regel uit het jaarrooster, onder de lestitel */
+.les-planning {
+  display: block;
+  font-size: 0.82em;
+  font-style: italic;
+  color: #888;
+  margin-top: 2px;
+}
+
+.dag-bijzonderheden {
+  margin-left: 10px;
+  font-size: 0.7em;
+  font-weight: normal;
+  background-color: #fbeee0;
+  color: #b5651d;
+  padding: 2px 8px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
 .les-onderwerp[hidden] {
   display: none;
 }

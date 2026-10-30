@@ -1,0 +1,46 @@
+name: Jaarrooster omzetten
+
+# Draait automatisch zodra je een nieuwe versie van data/jaarrooster.xlsx
+# naar GitHub uploadt (of het omzetscript verandert). Via het tabblad
+# "Actions" kun je 'm ook handmatig starten.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/jaarrooster.xlsx"
+      - "website-scripts/fetch_jaarrooster.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-jaarrooster:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository ophalen
+        uses: actions/checkout@v6
+
+      - name: Python installeren
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Excel-lezer installeren
+        run: pip install openpyxl
+
+      - name: Jaarrooster omzetten naar data/jaarrooster.json
+        run: python website-scripts/fetch_jaarrooster.py
+
+      - name: Wijziging committen (alleen als er iets veranderd is)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jaarrooster.json
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen in het jaarrooster."
+          else
+            git commit -m "Jaarrooster automatisch omgezet"
+            git pull --rebase
+            git push
+          fi

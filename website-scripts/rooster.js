@@ -32,6 +32,8 @@ const LESVELDEN = [
 let lesnotities = {}; // { "<les-id>": { notitie: "...", links: [...] } }
 let lesnotitiesSha = null; // nodig om een bestaand bestand op GitHub te overschrijven
 let openIds = new Set(); // welke lessen zijn opengeklapt
+let jaarrooster = null; // inhoud van data/jaarrooster.json (of null)
+let alleLessen = []; // alle lessen uit rooster.json, ook die van eerder deze week
 
 // ---------------------------------------------------------------------
 // GitHub-token: wordt alleen lokaal in déze browser bewaard (localStorage),
@@ -183,6 +185,15 @@ async function laadAlles() {
       lesnotitiesSha = null;
     }
 
+    try {
+      const jrResp = await fetch("data/jaarrooster.json", { cache: "no-cache" });
+      jaarrooster = jrResp.ok ? await jrResp.json() : null;
+    } catch (fout) {
+      console.warn("Geen jaarrooster geladen:", fout);
+      jaarrooster = null;
+    }
+
+    alleLessen = roosterData.lessons;
     toonRooster(roosterData.lessons, container);
   } catch (fout) {
     container.textContent =
@@ -236,6 +247,75 @@ function zetOnderwerp(el, data) {
   el.hidden = !tekst;
 }
 
+// ---------------------------------------------------------------------
+// Jaarrooster: wat staat er volgens de jaarplanning gepland voor deze les?
+// (data/jaarrooster.json wordt gemaakt door website-scripts/fetch_jaarrooster.py)
+// ---------------------------------------------------------------------
+
+// "v219 wi lv1d" -> { vak: "wi", klassen: ["lv1d"] }
+// "e013 bi vs10k.bi1 vs10m.bi1" -> { vak: "bi", klassen: ["vs10k", "bi1", "vs10m", "bi1"] }
+function ontleedCode(summary) {
+  const delen = (summary || "").trim().split(/\s+/);
+  return {
+    vak: (delen[1] || "").toLowerCase(),
+    klassen: delen.slice(2).flatMap((d) => d.toLowerCase().split(".")),
+  };
+}
+
+function kolomVoorLes(les) {
+  if (!jaarrooster) return null;
+  const { vak, klassen } = ontleedCode(les.summary);
+  for (const k of jaarrooster.koppelingen || []) {
+    if (k.match.some((m) => m.vak === vak && klassen.some((kl) => kl.startsWith(m.klas)))) {
+      return k.kolom;
+    }
+  }
+  return null;
+}
+
+function maandagVan(datumStr) {
+  const d = new Date(datumStr + "T12:00:00");
+  d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function planningVoorLes(les) {
+  if (les.cancelled) return "";
+  const kolom = kolomVoorLes(les);
+  if (!kolom) return "";
+  const week = maandagVan(les.date);
+  const regels = ((jaarrooster.planning || {})[kolom] || {})[week] || [];
+  if (regels.length === 0) return "";
+  if (regels.length === 1) return regels[0].tekst;
+
+  // 1. Een regel met precies de datum van deze les
+  const opDatum = regels.filter((r) => r.datum === les.date);
+  if (opDatum.length > 0) return opDatum.map((r) => r.tekst).join(" · ");
+
+  // 2. Evenveel regels als lessen deze week: de zoveelste les krijgt de
+  //    zoveelste regel (zelfde klas, vervallen lessen tellen niet mee)
+  const groep = ontleedCode(les.summary).klassen.join(" ");
+  const lessenDezeWeek = alleLessen
+    .filter(
+      (l) =>
+        !l.cancelled &&
+        maandagVan(l.date) === week &&
+        kolomVoorLes(l) === kolom &&
+        ontleedCode(l.summary).klassen.join(" ") === groep
+    )
+    .sort((a, b) => (a.date + a.start).localeCompare(b.date + b.start));
+  const plek = lessenDezeWeek.findIndex((l) => l.id === les.id);
+  if (lessenDezeWeek.length === regels.length && plek >= 0) return regels[plek].tekst;
+
+  // 3. Anders: alles van deze week
+  return regels.map((r) => r.tekst).join(" · ");
+}
+
+function bijzonderhedenVoorDatum(datumStr) {
+  if (!jaarrooster || !jaarrooster.bijzonderheden) return "";
+  return (jaarrooster.bijzonderheden[maandagVan(datumStr)] || []).join(" · ");
+}
+
 function vandaagStr() {
   const nu = new Date();
   const jaar = nu.getFullYear();
@@ -269,6 +349,13 @@ function toonRooster(lessen, container) {
       day: "numeric",
       month: "long",
     });
+    const bijz = bijzonderhedenVoorDatum(datum);
+    if (bijz) {
+      const bijzLabel = document.createElement("span");
+      bijzLabel.className = "dag-bijzonderheden";
+      bijzLabel.textContent = bijz;
+      kop.appendChild(bijzLabel);
+    }
     container.appendChild(kop);
 
     const lijst = document.createElement("ul");
@@ -302,6 +389,15 @@ function bouwLesItem(les) {
   onderwerp.className = "les-onderwerp";
   zetOnderwerp(onderwerp, lesnotities[les.id]);
   titel.appendChild(onderwerp);
+
+  // Wat er volgens de jaarplanning gepland staat
+  const planTekst = planningVoorLes(les);
+  if (planTekst) {
+    const plan = document.createElement("span");
+    plan.className = "les-planning";
+    plan.textContent = "Jaarplanning: " + planTekst;
+    titel.appendChild(plan);
+  }
 
   kop.appendChild(tijd);
   kop.appendChild(titel);

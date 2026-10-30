@@ -1,0 +1,1017 @@
+{
+  "koppelingen": [
+    {
+      "kolom": "1BK - wi",
+      "match": [
+        {
+          "vak": "wi",
+          "klas": "lv1a"
+        }
+      ]
+    },
+    {
+      "kolom": "1KGT",
+      "match": [
+        {
+          "vak": "wi",
+          "klas": "lv1d"
+        }
+      ]
+    },
+    {
+      "kolom": "Rekenen",
+      "match": [
+        {
+          "vak": "rek",
+          "klas": "lv1a"
+        },
+        {
+          "vak": "rek",
+          "klas": "lv1d"
+        }
+      ]
+    },
+    {
+      "kolom": "1BK - bi",
+      "match": [
+        {
+          "vak": "bi",
+          "klas": "lv1a"
+        }
+      ]
+    },
+    {
+      "kolom": "LPV2 - wi",
+      "match": [
+        {
+          "vak": "wi",
+          "klas": "lpv2"
+        }
+      ]
+    },
+    {
+      "kolom": "LPV2 - bi",
+      "match": [
+        {
+          "vak": "bi",
+          "klas": "lpv2"
+        }
+      ]
+    },
+    {
+      "kolom": "Vs9",
+      "match": [
+        {
+          "vak": "bi",
+          "klas": "vs9"
+        }
+      ]
+    },
+    {
+      "kolom": "Vs10",
+      "match": [
+        {
+          "vak": "bi",
+          "klas": "vs10"
+        }
+      ]
+    }
+  ],
+  "planning": {
+    "1BK - wi": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ],
+      "2026-09-07": [
+        {
+          "datum": "2026-09-07",
+          "tekst": "SO H1"
+        }
+      ],
+      "2026-09-14": [
+        {
+          "datum": "2026-09-14",
+          "tekst": "1.4; SO + 1.4; 1.5"
+        }
+      ],
+      "2026-09-21": [
+        {
+          "datum": "2026-09-21",
+          "tekst": "HW nakijken, oefenen PW"
+        },
+        {
+          "datum": "2026-09-23",
+          "tekst": "HW nakijken, oefenen PW"
+        },
+        {
+          "datum": "2026-09-24",
+          "tekst": "1.6; Oefenen; PW H1"
+        }
+      ],
+      "2026-09-28": [
+        {
+          "datum": "2026-09-28",
+          "tekst": "activiteiten/kampweek"
+        }
+      ],
+      "2026-10-05": [
+        {
+          "datum": "2026-10-05",
+          "tekst": "SO terug, 2.1"
+        },
+        {
+          "datum": "2026-10-07",
+          "tekst": "2.1"
+        },
+        {
+          "datum": "2026-10-08",
+          "tekst": "2.2"
+        }
+      ],
+      "2026-10-12": [
+        {
+          "datum": "2026-10-12",
+          "tekst": "2.2"
+        },
+        {
+          "datum": "2026-10-14",
+          "tekst": "2.3"
+        },
+        {
+          "datum": "2026-10-15",
+          "tekst": "2.3"
+        }
+      ],
+      "2026-10-19": [
+        {
+          "datum": "2026-10-19",
+          "tekst": "Herfstvakantie"
+        }
+      ],
+      "2026-10-26": [
+        {
+          "datum": "2026-10-26",
+          "tekst": "Herhalen 2.1 t/m 2.3"
+        },
+        {
+          "datum": "2026-10-28",
+          "tekst": "SO H2.1 t/m 2.3"
+        }
+      ],
+      "2026-11-09": [
+        {
+          "datum": "2026-11-09",
+          "tekst": "H2 Rekenen - Negatieve Get."
+        }
+      ],
+      "2026-11-23": [
+        {
+          "datum": "2026-11-23",
+          "tekst": "PO H3"
+        }
+      ],
+      "2026-12-14": [
+        {
+          "datum": "2026-12-14",
+          "tekst": "PW H3"
+        }
+      ],
+      "2026-12-21": [
+        {
+          "datum": "2026-12-21",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2026-12-28": [
+        {
+          "datum": "2026-12-28",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2027-01-18": [
+        {
+          "datum": "2027-01-18",
+          "tekst": "SO H4"
+        }
+      ],
+      "2027-02-01": [
+        {
+          "datum": "2027-02-01",
+          "tekst": "H4 Getallen"
+        }
+      ],
+      "2027-02-08": [
+        {
+          "datum": "2027-02-08",
+          "tekst": "Voorjaarsvakantie"
+        }
+      ],
+      "2027-03-01": [
+        {
+          "datum": "2027-03-01",
+          "tekst": "PO H5"
+        }
+      ],
+      "2027-03-22": [
+        {
+          "datum": "2027-03-22",
+          "tekst": "SO H6"
+        }
+      ],
+      "2027-04-05": [
+        {
+          "datum": "2027-04-05",
+          "tekst": "PW H6"
+        }
+      ],
+      "2027-04-19": [
+        {
+          "datum": "2027-04-19",
+          "tekst": "SO H7"
+        }
+      ],
+      "2027-04-26": [
+        {
+          "datum": "2027-04-26",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-05-03": [
+        {
+          "datum": "2027-05-03",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-05-24": [
+        {
+          "datum": "2027-05-24",
+          "tekst": "PW H7"
+        }
+      ],
+      "2027-06-21": [
+        {
+          "datum": "2027-06-21",
+          "tekst": "SO H8"
+        }
+      ],
+      "2027-07-05": [
+        {
+          "datum": "2027-07-05",
+          "tekst": "H8"
+        }
+      ],
+      "2027-07-12": [
+        {
+          "datum": "2027-07-12",
+          "tekst": "Inhaalweek"
+        }
+      ],
+      "2027-07-19": [
+        {
+          "datum": "2027-07-19",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-07-26": [
+        {
+          "datum": "2027-07-26",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-02": [
+        {
+          "datum": "2027-08-02",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-09": [
+        {
+          "datum": "2027-08-09",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-16": [
+        {
+          "datum": "2027-08-16",
+          "tekst": "Eerste schoolweek"
+        }
+      ]
+    },
+    "1KGT": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ],
+      "2026-09-07": [
+        {
+          "datum": "2026-09-07",
+          "tekst": "SO H1"
+        }
+      ],
+      "2026-09-21": [
+        {
+          "datum": "2026-09-21",
+          "tekst": "HW nakijken, oefenen PW"
+        },
+        {
+          "datum": "2026-09-23",
+          "tekst": "HW nakijken, oefenen PW"
+        },
+        {
+          "datum": "2026-09-24",
+          "tekst": "Oefenen; PW H1"
+        }
+      ],
+      "2026-09-28": [
+        {
+          "datum": "2026-09-28",
+          "tekst": "activiteiten/kampweek"
+        }
+      ],
+      "2026-10-05": [
+        {
+          "datum": "2026-10-05",
+          "tekst": "SO terug, 2.1"
+        },
+        {
+          "datum": "2026-10-07",
+          "tekst": "2.2"
+        },
+        {
+          "datum": "2026-10-08",
+          "tekst": "2.2"
+        }
+      ],
+      "2026-10-12": [
+        {
+          "datum": "2026-10-12",
+          "tekst": "Below Zero"
+        },
+        {
+          "datum": "2026-10-14",
+          "tekst": "2.3"
+        },
+        {
+          "datum": "2026-10-15",
+          "tekst": "2.3"
+        }
+      ],
+      "2026-10-19": [
+        {
+          "datum": "2026-10-19",
+          "tekst": "Herfstvakantie"
+        }
+      ],
+      "2026-10-26": [
+        {
+          "datum": "2026-10-26",
+          "tekst": "Herhalen 2.1 t/m 2.3"
+        },
+        {
+          "datum": "2026-10-28",
+          "tekst": "SO H2.1 t/m 2.3"
+        }
+      ],
+      "2026-11-09": [
+        {
+          "datum": "2026-11-09",
+          "tekst": "H2 Rekenen - Negatieve Get."
+        }
+      ],
+      "2026-11-23": [
+        {
+          "datum": "2026-11-23",
+          "tekst": "PO H3"
+        }
+      ],
+      "2026-12-14": [
+        {
+          "datum": "2026-12-14",
+          "tekst": "PW H3"
+        }
+      ],
+      "2026-12-21": [
+        {
+          "datum": "2026-12-21",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2026-12-28": [
+        {
+          "datum": "2026-12-28",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2027-01-18": [
+        {
+          "datum": "2027-01-18",
+          "tekst": "SO H4"
+        }
+      ],
+      "2027-02-01": [
+        {
+          "datum": "2027-02-01",
+          "tekst": "H4"
+        }
+      ],
+      "2027-02-08": [
+        {
+          "datum": "2027-02-08",
+          "tekst": "Voorjaarsvakantie"
+        }
+      ],
+      "2027-03-01": [
+        {
+          "datum": "2027-03-01",
+          "tekst": "PO H5"
+        }
+      ],
+      "2027-03-22": [
+        {
+          "datum": "2027-03-22",
+          "tekst": "SO H6"
+        }
+      ],
+      "2027-04-05": [
+        {
+          "datum": "2027-04-05",
+          "tekst": "PW H6"
+        }
+      ],
+      "2027-04-19": [
+        {
+          "datum": "2027-04-19",
+          "tekst": "SO H7"
+        }
+      ],
+      "2027-04-26": [
+        {
+          "datum": "2027-04-26",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-05-03": [
+        {
+          "datum": "2027-05-03",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-05-24": [
+        {
+          "datum": "2027-05-24",
+          "tekst": "PW H7"
+        }
+      ],
+      "2027-06-21": [
+        {
+          "datum": "2027-06-21",
+          "tekst": "SO H8"
+        }
+      ],
+      "2027-07-05": [
+        {
+          "datum": "2027-07-05",
+          "tekst": "H8"
+        }
+      ],
+      "2027-07-12": [
+        {
+          "datum": "2027-07-12",
+          "tekst": "Inhaalweek"
+        }
+      ],
+      "2027-07-19": [
+        {
+          "datum": "2027-07-19",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-07-26": [
+        {
+          "datum": "2027-07-26",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-02": [
+        {
+          "datum": "2027-08-02",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-09": [
+        {
+          "datum": "2027-08-09",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-16": [
+        {
+          "datum": "2027-08-16",
+          "tekst": "Eerste schoolweek"
+        }
+      ]
+    },
+    "Rekenen": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ],
+      "2026-09-28": [
+        {
+          "datum": "2026-09-28",
+          "tekst": "activiteiten/kampweek"
+        }
+      ],
+      "2026-10-12": [
+        {
+          "datum": "2026-10-14",
+          "tekst": "H4"
+        }
+      ],
+      "2026-10-19": [
+        {
+          "datum": "2026-10-19",
+          "tekst": "Herfstvakantie"
+        }
+      ],
+      "2026-10-26": [
+        {
+          "datum": "2026-10-28",
+          "tekst": "H4 / H7"
+        }
+      ],
+      "2026-11-02": [
+        {
+          "datum": null,
+          "tekst": "H7"
+        }
+      ],
+      "2026-11-09": [
+        {
+          "datum": "2026-11-09",
+          "tekst": "Getallen"
+        }
+      ],
+      "2026-12-21": [
+        {
+          "datum": "2026-12-21",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2026-12-28": [
+        {
+          "datum": "2026-12-28",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2027-02-01": [
+        {
+          "datum": "2027-02-01",
+          "tekst": "Verhoudingen"
+        }
+      ],
+      "2027-02-08": [
+        {
+          "datum": "2027-02-08",
+          "tekst": "Voorjaarsvakantie"
+        }
+      ],
+      "2027-04-05": [
+        {
+          "datum": "2027-04-05",
+          "tekst": "Meten & Meetkunde"
+        }
+      ],
+      "2027-04-26": [
+        {
+          "datum": "2027-04-26",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-05-03": [
+        {
+          "datum": "2027-05-03",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-07-05": [
+        {
+          "datum": "2027-07-05",
+          "tekst": "Verbanden"
+        }
+      ],
+      "2027-07-12": [
+        {
+          "datum": "2027-07-12",
+          "tekst": "Inhaalweek"
+        }
+      ],
+      "2027-07-19": [
+        {
+          "datum": "2027-07-19",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-07-26": [
+        {
+          "datum": "2027-07-26",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-02": [
+        {
+          "datum": "2027-08-02",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-09": [
+        {
+          "datum": "2027-08-09",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-16": [
+        {
+          "datum": "2027-08-16",
+          "tekst": "Eerste schoolweek"
+        }
+      ]
+    },
+    "1BK - bi": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ],
+      "2026-08-31": [
+        {
+          "datum": "2026-08-31",
+          "tekst": "Bs1"
+        }
+      ],
+      "2026-09-21": [
+        {
+          "datum": "2026-09-24",
+          "tekst": "PW H1"
+        }
+      ],
+      "2026-09-28": [
+        {
+          "datum": "2026-09-28",
+          "tekst": "activiteiten/kampweek"
+        }
+      ],
+      "2026-10-19": [
+        {
+          "datum": "2026-10-19",
+          "tekst": "Herfstvakantie"
+        }
+      ],
+      "2026-10-26": [
+        {
+          "datum": "2026-10-26",
+          "tekst": "2.2"
+        },
+        {
+          "datum": "2026-10-28",
+          "tekst": "2.3"
+        },
+        {
+          "datum": "2026-10-29",
+          "tekst": "2.4"
+        }
+      ],
+      "2026-11-09": [
+        {
+          "datum": "2026-11-09",
+          "tekst": "Thema 2"
+        }
+      ],
+      "2026-12-21": [
+        {
+          "datum": "2026-12-21",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2026-12-28": [
+        {
+          "datum": "2026-12-28",
+          "tekst": "Kerstvakantie"
+        }
+      ],
+      "2027-02-08": [
+        {
+          "datum": "2027-02-08",
+          "tekst": "Voorjaarsvakantie"
+        }
+      ],
+      "2027-04-26": [
+        {
+          "datum": "2027-04-26",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-05-03": [
+        {
+          "datum": "2027-05-03",
+          "tekst": "Meivakantie"
+        }
+      ],
+      "2027-07-12": [
+        {
+          "datum": "2027-07-12",
+          "tekst": "Inhaalweek"
+        }
+      ],
+      "2027-07-19": [
+        {
+          "datum": "2027-07-19",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-07-26": [
+        {
+          "datum": "2027-07-26",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-02": [
+        {
+          "datum": "2027-08-02",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-09": [
+        {
+          "datum": "2027-08-09",
+          "tekst": "Zomer vakantie"
+        }
+      ],
+      "2027-08-16": [
+        {
+          "datum": "2027-08-16",
+          "tekst": "Eerste schoolweek"
+        }
+      ]
+    },
+    "LPV2 - wi": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ]
+    },
+    "LPV2 - bi": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ]
+    },
+    "Vs9": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ],
+      "2026-08-31": [
+        {
+          "datum": "2026-08-31",
+          "tekst": "Intro thema 1"
+        },
+        {
+          "datum": "2026-09-02",
+          "tekst": "Thema 1 Basisstof 1"
+        },
+        {
+          "datum": "2026-09-03",
+          "tekst": "Thema 1 Basisstof 2"
+        }
+      ],
+      "2026-09-07": [
+        {
+          "datum": "2026-09-07",
+          "tekst": "Thema 1 Basisstof 3"
+        },
+        {
+          "datum": "2026-09-10",
+          "tekst": "SO T1 Bs. 1-3"
+        }
+      ],
+      "2026-09-14": [
+        {
+          "datum": "2026-09-14",
+          "tekst": "Basisstof 4 Chromosomen"
+        },
+        {
+          "datum": "2026-09-16",
+          "tekst": "Microscoop intro"
+        },
+        {
+          "datum": "2026-09-17",
+          "tekst": "Basisstof 5 Gewone celdeling (mitose)"
+        }
+      ],
+      "2026-09-21": [
+        {
+          "datum": "2026-09-21",
+          "tekst": "Basisstof 6 Meiose"
+        },
+        {
+          "datum": "2026-09-21",
+          "tekst": "Theorie Microscopie"
+        }
+      ],
+      "2026-09-28": [
+        {
+          "datum": "2026-09-28",
+          "tekst": "Uitval"
+        },
+        {
+          "datum": "2026-09-30",
+          "tekst": "Microscopie practicum"
+        }
+      ],
+      "2026-10-19": [
+        {
+          "datum": "2026-10-19",
+          "tekst": "Herfstvakantie"
+        }
+      ]
+    },
+    "Vs10": {
+      "2026-08-24": [
+        {
+          "datum": "2026-08-24",
+          "tekst": "Intro + eerste dagen"
+        }
+      ],
+      "2026-08-31": [
+        {
+          "datum": "2026-08-31",
+          "tekst": "Intro thema 5 Stevigheid en beweging"
+        },
+        {
+          "datum": "2026-09-02",
+          "tekst": "Thema 5 Basisstof 1"
+        },
+        {
+          "datum": "2026-09-03",
+          "tekst": "Thema 5 Basisstof 2"
+        }
+      ],
+      "2026-09-07": [
+        {
+          "datum": "2026-09-07",
+          "tekst": "Thema 5 Basisstof 3"
+        },
+        {
+          "datum": "2026-09-09",
+          "tekst": "Thema 5 Basisstof 4"
+        },
+        {
+          "datum": "2026-09-10",
+          "tekst": "SO T5 Bs. 1-3"
+        }
+      ],
+      "2026-09-14": [
+        {
+          "datum": "2026-09-14",
+          "tekst": "Thema 5 Basisstof 5"
+        },
+        {
+          "datum": "2026-09-16",
+          "tekst": "Thema 5 Basisstof 6"
+        },
+        {
+          "datum": "2026-09-17",
+          "tekst": "Thema 8 Basisstof 1"
+        }
+      ],
+      "2026-09-21": [
+        {
+          "datum": "2026-09-21",
+          "tekst": "Thema 8 Basisstof 2"
+        },
+        {
+          "datum": "2026-09-23",
+          "tekst": "Thema 8 Basisstof 3"
+        },
+        {
+          "datum": "2026-09-21",
+          "tekst": "Thema 8 Basisstof 4"
+        }
+      ],
+      "2026-09-28": [
+        {
+          "datum": "2026-09-28",
+          "tekst": "Uitval"
+        },
+        {
+          "datum": "2026-09-30",
+          "tekst": "Thema 8 Basisstof 5"
+        },
+        {
+          "datum": "2026-10-01",
+          "tekst": "Thema 8 Basisstof 6"
+        }
+      ],
+      "2026-10-05": [
+        {
+          "datum": "2026-10-05",
+          "tekst": "Herhaling T8"
+        },
+        {
+          "datum": "2026-10-07",
+          "tekst": "Toets T8"
+        },
+        {
+          "datum": "2026-10-08",
+          "tekst": "Thema 9 Planten Basisstof 1"
+        }
+      ],
+      "2026-10-12": [
+        {
+          "datum": "2026-10-12",
+          "tekst": "Thema 9 Basisstof 2"
+        },
+        {
+          "datum": "2026-10-14",
+          "tekst": "Wandeling"
+        },
+        {
+          "datum": "2026-10-15",
+          "tekst": "Microscoop kennismaking"
+        }
+      ],
+      "2026-10-19": [
+        {
+          "datum": "2026-10-19",
+          "tekst": "Herfstvakantie"
+        }
+      ],
+      "2026-10-26": [
+        {
+          "datum": "2026-10-26",
+          "tekst": "Thema 9 Basisstof 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 9 Basisstof 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 9 Basisstof 4"
+        }
+      ],
+      "2026-11-02": [
+        {
+          "datum": "2026-11-02",
+          "tekst": "Thema 9 Basisstof 5"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 9 Basisstof 6"
+        },
+        {
+          "datum": null,
+          "tekst": "Herhaling"
+        }
+      ],
+      "2026-11-09": [
+        {
+          "datum": "2026-11-09",
+          "tekst": "Toets T9"
+        }
+      ]
+    }
+  },
+  "bijzonderheden": {
+    "2026-08-24": [
+      "Intro + eerste dagen"
+    ],
+    "2026-09-28": [
+      "activiteiten/kampweek"
+    ],
+    "2026-10-05": [
+      "Cito?"
+    ],
+    "2026-10-19": [
+      "Herfstvakantie"
+    ],
+    "2026-11-09": [
+      "Toetsweek"
+    ]
+  }
+}
