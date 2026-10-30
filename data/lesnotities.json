@@ -687,7 +687,14 @@
       "mededelingen": "Vorige les",
       "huiswerk_nu": "59 t/m 69"
     },
-    "links": []
+    "links": [
+      {
+        "id": "b184ed9f",
+        "type": "url",
+        "label": "Lespresentatie (Niet-) Gelijknamige breuken optellen en aftrekken",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQC2e4BWTVOGSYrYPcGrStMsAY6poyL0qBwMADwRBs7zBqc?email=j.jacobs%40arentheemcollege.nl&e=K9yp65"
+      }
+    ]
   },
   "uid:1885811@arentheem": {
     "velden": {
