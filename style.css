@@ -173,6 +173,29 @@ footer {
   resize: vertical;
 }
 
+.les-veld {
+  width: 100%;
+  min-height: 52px;
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 0.95em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.les-veld:focus {
+  outline: none;
+  border-color: #2b6777;
+  box-shadow: 0 0 0 2px #e6f0f2;
+}
+
+.les-veld::placeholder {
+  color: #aaa;
+}
+
 .links-lijst {
   margin-bottom: 8px;
 }
