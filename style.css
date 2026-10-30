@@ -111,6 +111,17 @@ footer {
   margin-top: 2px;
 }
 
+.les-onderwerp-link {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+}
+
+.les-onderwerp-link:hover {
+  border-bottom-style: solid;
+}
+
 .les-onderwerp[hidden] {
   display: none;
 }

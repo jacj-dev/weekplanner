@@ -201,10 +201,39 @@ function haalVeld(data, sleutel) {
   return "";
 }
 
-function zetOnderwerp(el, tekst) {
-  const t = (tekst || "").trim();
-  el.textContent = t;
-  el.hidden = !t;
+// Is deze link een PowerPoint-presentatie?
+function isPresentatie(link) {
+  const t = (link && link.target) || "";
+  return /^ms-powerpoint:/i.test(t) || /\.pptx?(\?|#|$)/i.test(t) || /sharepoint\.com\/:p:\//i.test(t);
+}
+
+// Vult de titelregel in de lesbalk. Hangt er precies één presentatie aan
+// de les, dan wordt de titel een link die die presentatie opent.
+function zetOnderwerp(el, data) {
+  const tekst = (haalVeld(data, "titel") || "").trim();
+  const presentaties = ((data && data.links) || []).filter(
+    (l) => isPresentatie(l) && isVeiligeLinkTarget(l.target)
+  );
+  el.innerHTML = "";
+
+  if (presentaties.length === 1) {
+    const p = presentaties[0];
+    const a = document.createElement("a");
+    a.className = "les-onderwerp-link";
+    a.href = p.target;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = "▶ " + (tekst || p.label);
+    a.title = "Open presentatie: " + p.label;
+    // klikken op de link opent de presentatie, niet de les
+    a.addEventListener("click", (e) => e.stopPropagation());
+    el.appendChild(a);
+    el.hidden = false;
+    return;
+  }
+
+  el.textContent = tekst;
+  el.hidden = !tekst;
 }
 
 function vandaagStr() {
@@ -271,7 +300,7 @@ function bouwLesItem(les) {
   // Lestitel uit de notities, zichtbaar als de les is ingeklapt
   const onderwerp = document.createElement("span");
   onderwerp.className = "les-onderwerp";
-  zetOnderwerp(onderwerp, haalVeld(lesnotities[les.id], "titel"));
+  zetOnderwerp(onderwerp, lesnotities[les.id]);
   titel.appendChild(onderwerp);
 
   kop.appendChild(tijd);
@@ -525,7 +554,7 @@ function bouwLesDetail(les) {
       await slaLesnotitiesOp(les.id, `Notities bijgewerkt: ${les.summary} (${les.date})`);
       // Titel in de ingeklapte lesbalk meteen bijwerken
       const kopOnderwerp = detail.closest(".les")?.querySelector(".les-onderwerp");
-      if (kopOnderwerp) zetOnderwerp(kopOnderwerp, haalVeld(lesnotities[les.id], "titel"));
+      if (kopOnderwerp) zetOnderwerp(kopOnderwerp, lesnotities[les.id]);
       statusTekst.textContent = "Opgeslagen ✓";
       setTimeout(() => (statusTekst.textContent = ""), 2500);
     } catch (fout) {
