@@ -374,10 +374,13 @@ function bouwLesDetail(les) {
   const nieuweLinkRij = document.createElement("div");
   nieuweLinkRij.className = "nieuwe-link-rij";
   const typeKeuze = document.createElement("select");
-  ["bestand", "youtube", "url"].forEach((t) => {
+  [
+    ["url", "Link"],
+    ["youtube", "YouTube"],
+  ].forEach(([waarde, tekst]) => {
     const opt = document.createElement("option");
-    opt.value = t;
-    opt.textContent = t === "bestand" ? "Bestand in repo" : t === "youtube" ? "YouTube" : "Andere link";
+    opt.value = waarde;
+    opt.textContent = tekst;
     typeKeuze.appendChild(opt);
   });
   const labelVeld = document.createElement("input");
@@ -385,7 +388,7 @@ function bouwLesDetail(les) {
   labelVeld.placeholder = "Naam (bv. Presentatie H3)";
   const targetVeld = document.createElement("input");
   targetVeld.type = "text";
-  targetVeld.placeholder = "materialen/bestand.pptx of https://...";
+  targetVeld.placeholder = "https://... of ms-powerpoint:ofe|u|https://...";
   const toevoegBtn = document.createElement("button");
   toevoegBtn.type = "button";
   toevoegBtn.textContent = "+ Toevoegen";
@@ -396,7 +399,7 @@ function bouwLesDetail(les) {
     if (!doel) return;
     if (!isVeiligeLinkTarget(doel)) {
       nieuweLinkFout.textContent =
-        "Dit lijkt geen geldige link (gebruik een https://-link of een pad zoals materialen/bestand.pptx).";
+        "Dit lijkt geen geldige link (gebruik bijvoorbeeld een https://-link).";
       return;
     }
     nieuweLinkFout.textContent = "";
