@@ -111,15 +111,26 @@ footer {
   margin-top: 2px;
 }
 
+/* Klikbare titel: ziet eruit als een knopje, zodat duidelijk is dat
+   klikken de presentatie opent en niet de les openklapt */
 .les-onderwerp-link {
-  color: inherit;
+  display: inline-block;
+  color: #fff;
+  background-color: #2b6777;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 1px dashed currentColor;
+  padding: 2px 10px;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 .les-onderwerp-link:hover {
-  border-bottom-style: solid;
+  background-color: #1d4b57;
+}
+
+/* Wijs je de titel aan, dan licht niet de hele lesbalk op */
+.les-kop:has(.les-onderwerp-link:hover) {
+  background-color: transparent;
 }
 
 /* Regel uit het jaarrooster, onder de lestitel */

@@ -568,6 +568,7 @@ function bouwLesDetail(les) {
     labelVeld.value = "";
     targetVeld.value = "";
     tekenLinks(werkLinks, linksLijst);
+    slaOp(); // link meteen opslaan, zodat hij niet verloren gaat
   });
   nieuweLinkRij.appendChild(typeKeuze);
   nieuweLinkRij.appendChild(labelVeld);
@@ -610,6 +611,7 @@ function bouwLesDetail(les) {
       verwijder.addEventListener("click", () => {
         links.splice(idx, 1);
         tekenLinks(links, container);
+        slaOp();
       });
       rij.appendChild(naam);
       rij.appendChild(open);
@@ -628,7 +630,11 @@ function bouwLesDetail(les) {
   const statusTekst = document.createElement("span");
   statusTekst.className = "opslaan-status";
 
-  opslaanBtn.addEventListener("click", async () => {
+  opslaanBtn.addEventListener("click", slaOp);
+
+  // Slaat alle velden en links van deze les op. Wordt ook automatisch
+  // aangeroepen na het toevoegen of verwijderen van een link.
+  async function slaOp() {
     opslaanBtn.disabled = true;
     statusTekst.textContent = "Bezig met opslaan…";
     try {
@@ -659,7 +665,7 @@ function bouwLesDetail(les) {
     } finally {
       opslaanBtn.disabled = false;
     }
-  });
+  }
 
   opslaanRij.appendChild(opslaanBtn);
   opslaanRij.appendChild(statusTekst);
