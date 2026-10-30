@@ -318,3 +318,17 @@ footer {
   font-size: 0.85em;
   color: #555;
 }
+
+.write-vinkje {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+  margin: 0 !important;
+  font-weight: normal !important;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.write-vinkje[hidden] {
+  display: none !important;
+}

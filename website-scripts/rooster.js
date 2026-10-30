@@ -6,6 +6,8 @@ const REPO = "jacj-dev/weekplanner";
 const BRANCH = "main";
 const NOTITIES_PATH = "data/lesnotities.json";
 const TOKEN_KEY = "weekplanner_gh_token";
+const WRITE_PREFIX = "ms-powerpoint:ofe|u|"; // opent het bestand bewerkbaar in PowerPoint
+const WRITE_KEY = "weekplanner_write_access"; // onthoudt het vinkje in deze browser
 
 // Invulvelden per les, in de volgorde van de lesopbouw. Wil je een veld
 // toevoegen, hernoemen of weghalen? Pas dan alleen deze lijst aan.
@@ -388,15 +390,44 @@ function bouwLesDetail(les) {
   labelVeld.placeholder = "Naam (bv. Presentatie H3)";
   const targetVeld = document.createElement("input");
   targetVeld.type = "text";
-  targetVeld.placeholder = "https://... of ms-powerpoint:ofe|u|https://...";
+  targetVeld.placeholder = "https://...";
+  // Vinkje "write access": plakt WRITE_PREFIX voor de link bij toevoegen
+  const writeLabel = document.createElement("label");
+  writeLabel.className = "write-vinkje";
+  const writeVink = document.createElement("input");
+  writeVink.type = "checkbox";
+  try {
+    writeVink.checked = localStorage.getItem(WRITE_KEY) !== "0";
+  } catch {
+    writeVink.checked = true;
+  }
+  writeVink.addEventListener("change", () => {
+    try {
+      localStorage.setItem(WRITE_KEY, writeVink.checked ? "1" : "0");
+    } catch {}
+  });
+  writeLabel.appendChild(writeVink);
+  writeLabel.appendChild(document.createTextNode(" write access"));
+  writeLabel.title = `Zet "${WRITE_PREFIX}" voor de link`;
+  // Alleen zinvol bij gewone links, niet bij YouTube
+  const updateWriteZichtbaar = () => {
+    writeLabel.hidden = typeKeuze.value !== "url";
+  };
+  typeKeuze.addEventListener("change", updateWriteZichtbaar);
+  updateWriteZichtbaar();
+
   const toevoegBtn = document.createElement("button");
   toevoegBtn.type = "button";
   toevoegBtn.textContent = "+ Toevoegen";
   const nieuweLinkFout = document.createElement("div");
   nieuweLinkFout.className = "nieuwe-link-fout";
   toevoegBtn.addEventListener("click", () => {
-    const doel = targetVeld.value.trim();
+    const ingevoerd = targetVeld.value.trim();
+    let doel = ingevoerd;
     if (!doel) return;
+    if (typeKeuze.value === "url" && writeVink.checked && !/^ms-powerpoint:/i.test(doel)) {
+      doel = WRITE_PREFIX + doel;
+    }
     if (!isVeiligeLinkTarget(doel)) {
       nieuweLinkFout.textContent =
         "Dit lijkt geen geldige link (gebruik bijvoorbeeld een https://-link).";
@@ -406,7 +437,7 @@ function bouwLesDetail(les) {
     werkLinks.push({
       id: Math.random().toString(16).slice(2, 10),
       type: typeKeuze.value,
-      label: labelVeld.value.trim() || doel,
+      label: labelVeld.value.trim() || ingevoerd,
       target: doel,
     });
     labelVeld.value = "";
@@ -416,6 +447,7 @@ function bouwLesDetail(les) {
   nieuweLinkRij.appendChild(typeKeuze);
   nieuweLinkRij.appendChild(labelVeld);
   nieuweLinkRij.appendChild(targetVeld);
+  nieuweLinkRij.appendChild(writeLabel);
   nieuweLinkRij.appendChild(toevoegBtn);
   detail.appendChild(nieuweLinkRij);
   detail.appendChild(nieuweLinkFout);
