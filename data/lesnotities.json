@@ -683,7 +683,9 @@
   },
   "uid:1885997@arentheem": {
     "velden": {
-      "titel": "H2.4 Breuken"
+      "titel": "H2.4 Breuken",
+      "mededelingen": "Vorige les",
+      "huiswerk_nu": "59 t/m 69"
     },
     "links": []
   },
