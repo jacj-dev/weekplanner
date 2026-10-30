@@ -7,6 +7,24 @@ const BRANCH = "main";
 const NOTITIES_PATH = "data/lesnotities.json";
 const TOKEN_KEY = "weekplanner_gh_token";
 
+// Invulvelden per les, in de volgorde van de lesopbouw. Wil je een veld
+// toevoegen, hernoemen of weghalen? Pas dan alleen deze lijst aan.
+// - sleutel: naam waaronder het in lesnotities.json wordt bewaard
+//   (verander die liever niet meer als er al iets in is ingevuld)
+// - label:   wat je op de site ziet
+// - hint:    grijze voorbeeldtekst in een leeg veld
+const LESVELDEN = [
+  { sleutel: "mededelingen", label: "Mededelingen", hint: "Bv. SO volgende week, excursie, toetsrooster…" },
+  { sleutel: "huiswerk_nu", label: "Huiswerk voor deze les", hint: "Wat moesten ze voor vandaag doen? Hoe controleer je het?" },
+  { sleutel: "activerend", label: "Activerende taak", hint: "Startopdracht / voorkennis ophalen" },
+  { sleutel: "nieuwe_stof", label: "Nieuwe stof om uit te leggen", hint: "Kernbegrippen, paragraaf, uitleg" },
+  { sleutel: "verwerking", label: "Verwerking / zelfstandig werken", hint: "Opgaven, practicum, samenwerkopdracht" },
+  { sleutel: "terugkoppeling", label: "Terugkoppelende taak (deze les)", hint: "Exit ticket, check of het doel gehaald is" },
+  { sleutel: "huiswerk_volgende", label: "Huiswerk voor volgende keer", hint: "Opgaven + inleverdatum" },
+  { sleutel: "einde_les", label: "Einde les", hint: "Afsluiting, opruimen, vooruitblik" },
+  { sleutel: "notitie", label: "Overige notities", hint: "" },
+];
+
 let lesnotities = {}; // { "<les-id>": { notitie: "...", links: [...] } }
 let lesnotitiesSha = null; // nodig om een bestaand bestand op GitHub te overschrijven
 let openIds = new Set(); // welke lessen zijn opengeklapt
@@ -169,6 +187,16 @@ async function laadAlles() {
   }
 }
 
+// Leest een veld uit een lesnotitie. Oude notities (van vóór de losse
+// velden) hebben alleen "notitie" op het hoogste niveau; die tonen we in
+// "Overige notities", zodat er niets verloren gaat.
+function haalVeld(data, sleutel) {
+  if (!data) return "";
+  if (data.velden && data.velden[sleutel] != null) return data.velden[sleutel];
+  if (sleutel === "notitie" && typeof data.notitie === "string") return data.notitie;
+  return "";
+}
+
 function vandaagStr() {
   const nu = new Date();
   const jaar = nu.getFullYear();
@@ -243,6 +271,13 @@ function bouwLesItem(les) {
   }
 
   const notitieData = lesnotities[les.id];
+  const ingevuld = LESVELDEN.filter((v) => (haalVeld(notitieData, v.sleutel) || "").trim()).length;
+  if (ingevuld > 0) {
+    const vbadge = document.createElement("span");
+    vbadge.className = "les-linkbadge les-veldbadge";
+    vbadge.textContent = `${ingevuld}/${LESVELDEN.length} ingevuld`;
+    kop.appendChild(vbadge);
+  }
   const linkAantal = notitieData && notitieData.links ? notitieData.links.length : 0;
   if (linkAantal > 0) {
     const badge = document.createElement("span");
@@ -278,16 +313,31 @@ function bouwLesDetail(les) {
     detail.appendChild(notice);
   }
 
-  const bestaand = lesnotities[les.id] || { notitie: "", links: [] };
+  const bestaand = lesnotities[les.id] || { links: [] };
 
-  // Notitieveld
-  const notitieLabel = document.createElement("label");
-  notitieLabel.textContent = "Notitie";
-  const notitieVeld = document.createElement("textarea");
-  notitieVeld.className = "les-notitieveld";
-  notitieVeld.value = bestaand.notitie || "";
-  detail.appendChild(notitieLabel);
-  detail.appendChild(notitieVeld);
+  // Invulvelden (zie LESVELDEN bovenaan)
+  const veldInvoer = {};
+  for (const veld of LESVELDEN) {
+    const veldId = `veld-${les.id}-${veld.sleutel}`.replace(/[^a-zA-Z0-9_-]/g, "_");
+    const label = document.createElement("label");
+    label.textContent = veld.label;
+    label.htmlFor = veldId;
+    const invoer = document.createElement("textarea");
+    invoer.id = veldId;
+    invoer.className = "les-veld";
+    invoer.placeholder = veld.hint;
+    invoer.value = haalVeld(bestaand, veld.sleutel) || "";
+    // groeit mee met de tekst
+    const pasHoogteAan = () => {
+      invoer.style.height = "auto";
+      invoer.style.height = invoer.scrollHeight + 2 + "px";
+    };
+    invoer.addEventListener("input", pasHoogteAan);
+    requestAnimationFrame(pasHoogteAan);
+    detail.appendChild(label);
+    detail.appendChild(invoer);
+    veldInvoer[veld.sleutel] = invoer;
+  }
 
   // Links
   const linksLabel = document.createElement("label");
@@ -402,9 +452,19 @@ function bouwLesDetail(les) {
     opslaanBtn.disabled = true;
     statusTekst.textContent = "Bezig met opslaan…";
     try {
-      lesnotities[les.id] = { notitie: notitieVeld.value, links: werkLinks };
+      const nieuw = { velden: {}, links: werkLinks };
+      for (const veld of LESVELDEN) {
+        const waarde = veldInvoer[veld.sleutel].value;
+        if (waarde.trim()) nieuw.velden[veld.sleutel] = waarde;
+      }
+      // Velden die niet (meer) in LESVELDEN staan niet kwijtraken
+      const oudeVelden = (lesnotities[les.id] && lesnotities[les.id].velden) || {};
+      for (const [k, v] of Object.entries(oudeVelden)) {
+        if (!LESVELDEN.some((veld) => veld.sleutel === k) && v) nieuw.velden[k] = v;
+      }
+      lesnotities[les.id] = nieuw;
       // Ruim lege ingangen op zodat het bestand niet blijft groeien
-      if (!lesnotities[les.id].notitie && lesnotities[les.id].links.length === 0) {
+      if (Object.keys(nieuw.velden).length === 0 && nieuw.links.length === 0) {
         delete lesnotities[les.id];
       }
       await slaLesnotitiesOp(les.id, `Notities bijgewerkt: ${les.summary} (${les.date})`);
