@@ -363,7 +363,7 @@ function bouwLesDetail(les) {
 
   // Links
   const linksLabel = document.createElement("label");
-  linksLabel.textContent = "Links";
+  linksLabel.textContent = "File";
   detail.appendChild(linksLabel);
 
   const linksLijst = document.createElement("div");
@@ -377,7 +377,7 @@ function bouwLesDetail(les) {
   nieuweLinkRij.className = "nieuwe-link-rij";
   const typeKeuze = document.createElement("select");
   [
-    ["url", "Link"],
+    ["url", "File"],
     ["youtube", "YouTube"],
   ].forEach(([waarde, tekst]) => {
     const opt = document.createElement("option");
