@@ -363,7 +363,7 @@ function bouwLesDetail(les) {
 
   // Links
   const linksLabel = document.createElement("label");
-  linksLabel.textContent = "File";
+  linksLabel.textContent = "Links";
   detail.appendChild(linksLabel);
 
   const linksLijst = document.createElement("div");
