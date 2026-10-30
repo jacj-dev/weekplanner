@@ -99,6 +99,25 @@ footer {
 
 .les-titel {
   flex: 1;
+  min-width: 0;
+}
+
+/* Lestitel uit de notities, onder de roostercode */
+.les-onderwerp {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #2b6777;
+  margin-top: 2px;
+}
+
+.les-onderwerp[hidden] {
+  display: none;
+}
+
+.les-veld.les-veld-kort {
+  min-height: 0;
+  overflow: visible;
 }
 
 .les.vervallen .les-kop {
@@ -106,7 +125,7 @@ footer {
   text-decoration: line-through;
 }
 
-.les.gewijzigd .les-titel::after {
+.les.gewijzigd .les-code::after {
   content: " (gewijzigd)";
   color: #b5651d;
   font-weight: normal;

@@ -13,7 +13,9 @@ const TOKEN_KEY = "weekplanner_gh_token";
 //   (verander die liever niet meer als er al iets in is ingevuld)
 // - label:   wat je op de site ziet
 // - hint:    grijze voorbeeldtekst in een leeg veld
+// - eenregelig: true = kort tekstvak van één regel i.p.v. een groot vak
 const LESVELDEN = [
+  { sleutel: "titel", label: "Titel", hint: "Kort: wat doe je deze les? (zichtbaar in het overzicht)", eenregelig: true },
   { sleutel: "mededelingen", label: "Mededelingen", hint: "Bv. SO volgende week, excursie, toetsrooster…" },
   { sleutel: "huiswerk_nu", label: "Huiswerk voor deze les", hint: "Wat moesten ze voor vandaag doen? Hoe controleer je het?" },
   { sleutel: "activerend", label: "Activerende taak", hint: "Startopdracht / voorkennis ophalen" },
@@ -197,6 +199,12 @@ function haalVeld(data, sleutel) {
   return "";
 }
 
+function zetOnderwerp(el, tekst) {
+  const t = (tekst || "").trim();
+  el.textContent = t;
+  el.hidden = !t;
+}
+
 function vandaagStr() {
   const nu = new Date();
   const jaar = nu.getFullYear();
@@ -253,7 +261,16 @@ function bouwLesItem(les) {
 
   const titel = document.createElement("span");
   titel.className = "les-titel";
-  titel.textContent = les.summary;
+  const code = document.createElement("span");
+  code.className = "les-code";
+  code.textContent = les.summary;
+  titel.appendChild(code);
+
+  // Lestitel uit de notities, zichtbaar als de les is ingeklapt
+  const onderwerp = document.createElement("span");
+  onderwerp.className = "les-onderwerp";
+  zetOnderwerp(onderwerp, haalVeld(lesnotities[les.id], "titel"));
+  titel.appendChild(onderwerp);
 
   kop.appendChild(tijd);
   kop.appendChild(titel);
@@ -322,18 +339,21 @@ function bouwLesDetail(les) {
     const label = document.createElement("label");
     label.textContent = veld.label;
     label.htmlFor = veldId;
-    const invoer = document.createElement("textarea");
+    const invoer = document.createElement(veld.eenregelig ? "input" : "textarea");
+    if (veld.eenregelig) invoer.type = "text";
     invoer.id = veldId;
-    invoer.className = "les-veld";
+    invoer.className = "les-veld" + (veld.eenregelig ? " les-veld-kort" : "");
     invoer.placeholder = veld.hint;
     invoer.value = haalVeld(bestaand, veld.sleutel) || "";
-    // groeit mee met de tekst
-    const pasHoogteAan = () => {
-      invoer.style.height = "auto";
-      invoer.style.height = invoer.scrollHeight + 2 + "px";
-    };
-    invoer.addEventListener("input", pasHoogteAan);
-    requestAnimationFrame(pasHoogteAan);
+    if (!veld.eenregelig) {
+      // groeit mee met de tekst
+      const pasHoogteAan = () => {
+        invoer.style.height = "auto";
+        invoer.style.height = invoer.scrollHeight + 2 + "px";
+      };
+      invoer.addEventListener("input", pasHoogteAan);
+      requestAnimationFrame(pasHoogteAan);
+    }
     detail.appendChild(label);
     detail.appendChild(invoer);
     veldInvoer[veld.sleutel] = invoer;
@@ -468,6 +488,9 @@ function bouwLesDetail(les) {
         delete lesnotities[les.id];
       }
       await slaLesnotitiesOp(les.id, `Notities bijgewerkt: ${les.summary} (${les.date})`);
+      // Titel in de ingeklapte lesbalk meteen bijwerken
+      const kopOnderwerp = detail.closest(".les")?.querySelector(".les-onderwerp");
+      if (kopOnderwerp) zetOnderwerp(kopOnderwerp, haalVeld(lesnotities[les.id], "titel"));
       statusTekst.textContent = "Opgeslagen ✓";
       setTimeout(() => (statusTekst.textContent = ""), 2500);
     } catch (fout) {
