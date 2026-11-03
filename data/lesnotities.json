@@ -702,5 +702,22 @@
       "titel": "Samenvatting H1.4-1.6"
     },
     "links": []
+  },
+  "uid:1886558@arentheem": {
+    "velden": {
+      "titel": "Planten en schimmels",
+      "mededelingen": "-",
+      "huiswerk_nu": "Opdracht 1 t/m 5 van basisstof 3 Planten, blz 150.",
+      "activerend": "Varen bekijken, opdracht?",
+      "nieuwe_stof": "Planten: zaadplanten, sporenplanten, zaad, spore, sporendoosjes, sporenhoopjes.\nSchimmels,"
+    },
+    "links": [
+      {
+        "id": "4e65ec95",
+        "type": "url",
+        "label": "Basisstof 3 Planten",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs.sharepoint.com/:p:/s/LEENB/IQAhc_D9yUByTKeCDDRG0LXAAeXQXrvZmZlDdwCxQ8Hb9AM?email=j.jacobs%40arentheemcollege.nl&e=yELVbT"
+      }
+    ]
   }
 }
