@@ -742,6 +742,13 @@
       "verwerking": "Tot en met 7 maken",
       "huiswerk_volgende": "Tot en met 7 maken"
     },
-    "links": []
+    "links": [
+      {
+        "id": "1b5f79ed",
+        "type": "url",
+        "label": "Basisstof 3.4 Schimmels",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs.sharepoint.com/:p:/s/LEENB/IQB2vYrmQun-SZxn63wDFKVQAUpY2Y0qj2CfTHKNmAd3nyg?email=j.jacobs%40arentheemcollege.nl&e=S8xncJ"
+      }
+    ]
   }
 }
