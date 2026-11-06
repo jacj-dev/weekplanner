@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:43:01",
+  "generated_at": "2026-11-06T16:27:30",
   "lessons": [
     {
       "id": "uid:1885997@arentheem",
@@ -262,8 +262,8 @@
       "summary": "verg",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bocr,bose,bosw,bram,buly,casj,coef,corh,dray,essa,haai,hade,ijsn,jacj,jonh,k"
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1887971@arentheem",
@@ -273,8 +273,8 @@
       "summary": "verg",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bocr,bose,bosw,bram,buly,casj,coef,corh,dray,essa,haai,hade,ijsn,jacj,jonh,k"
+      "changed": false,
+      "change_note": null
     },
     {
       "id": "uid:1915110@arentheem",
@@ -317,8 +317,8 @@
       "summary": "v213 bi lpv2",
       "location": "",
       "cancelled": false,
-      "changed": true,
-      "change_note": "Het lokaal is gewijzigd (was v219)."
+      "changed": false,
+      "change_note": null
     }
   ]
 }
