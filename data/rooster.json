@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:58:46",
+  "generated_at": "2026-11-11T17:42:53",
   "lessons": [
     {
       "id": "uid:1914756@arentheem",
@@ -141,8 +141,8 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": false,
-      "change_note": null
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
       "id": "uid:1906735@arentheem",
@@ -152,8 +152,8 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": false,
-      "change_note": null
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
       "id": "uid:1907426@arentheem",
@@ -250,9 +250,9 @@
       "end": "09:30",
       "summary": "v219 wi lpv2",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1906542@arentheem",
@@ -261,9 +261,9 @@
       "end": "10:15",
       "summary": "v219 bi lpv2",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1907289@arentheem",
@@ -283,9 +283,9 @@
       "end": "13:15",
       "summary": "v325 rek lv1a",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1907697@arentheem",
@@ -294,9 +294,9 @@
       "end": "14:00",
       "summary": "v325 wi lv1a",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1908047@arentheem",
@@ -305,9 +305,9 @@
       "end": "14:45",
       "summary": "v325 wi lv1d",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1907858@arentheem",
@@ -316,9 +316,9 @@
       "end": "15:45",
       "summary": "e013 bi vs10k.bi1 vs10m.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     }
   ]
 }
