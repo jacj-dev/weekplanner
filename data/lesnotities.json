@@ -764,7 +764,14 @@
     ]
   },
   "uid:1915065@arentheem": {
-    "velden": {},
+    "velden": {
+      "titel": "Bacteriën",
+      "mededelingen": "Toets plannen",
+      "huiswerk_nu": "Basisstof schimmels",
+      "activerend": "Blokje kaas meenemen",
+      "nieuwe_stof": "Bateriën",
+      "verwerking": "Opgave basisstof maken"
+    },
     "links": [
       {
         "id": "a977fefa",
