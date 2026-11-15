@@ -1,83 +1,6 @@
 {
-  "generated_at": "2026-11-15T18:09:13",
+  "generated_at": "2026-11-15T23:14:17",
   "lessons": [
-    {
-      "id": "uid:1914756@arentheem",
-      "date": "2026-11-09",
-      "start": "09:00",
-      "end": "12:20",
-      "summary": "[toets] v216_bi bi vs9m.bi1 vs9k.bi1",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1888199@arentheem",
-      "date": "2026-11-10",
-      "start": "08:30",
-      "end": "08:45",
-      "summary": "verg",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1887971@arentheem",
-      "date": "2026-11-10",
-      "start": "08:45",
-      "end": "09:30",
-      "summary": "verg",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1915110@arentheem",
-      "date": "2026-11-11",
-      "start": "08:45",
-      "end": "09:30",
-      "summary": "v216_bi bi lpv2",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1915003@arentheem",
-      "date": "2026-11-11",
-      "start": "09:30",
-      "end": "10:15",
-      "summary": "v216_bi wi lpv2",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1915116@arentheem",
-      "date": "2026-11-12",
-      "start": "08:45",
-      "end": "09:30",
-      "summary": "v219 wi lpv2",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1915065@arentheem",
-      "date": "2026-11-12",
-      "start": "09:30",
-      "end": "10:15",
-      "summary": "v213 bi lpv2",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
     {
       "id": "uid:1907039@arentheem",
       "date": "2026-11-16",
@@ -319,6 +242,248 @@
       "cancelled": true,
       "changed": false,
       "change_note": "Les vervalt"
+    },
+    {
+      "id": "uid:1908308@arentheem",
+      "date": "2026-11-23",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "v326_wi wi lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908472@arentheem",
+      "date": "2026-11-23",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "e111 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908177@arentheem",
+      "date": "2026-11-23",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "e111 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908295@arentheem",
+      "date": "2026-11-23",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v322_ne bi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908133@arentheem",
+      "date": "2026-11-23",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v323_en wi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908513@arentheem",
+      "date": "2026-11-24",
+      "start": "08:30",
+      "end": "08:45",
+      "summary": "v044_en verg",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908324@arentheem",
+      "date": "2026-11-24",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v044_en verg",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908680@arentheem",
+      "date": "2026-11-25",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v216_bi bi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908963@arentheem",
+      "date": "2026-11-25",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "v216_bi wi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908898@arentheem",
+      "date": "2026-11-25",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "v214 wi lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908614@arentheem",
+      "date": "2026-11-25",
+      "start": "11:15",
+      "end": "12:00",
+      "summary": "v216_bi rek lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908700@arentheem",
+      "date": "2026-11-25",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "e013 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908829@arentheem",
+      "date": "2026-11-25",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v216_bi wi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908776@arentheem",
+      "date": "2026-11-25",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v216_bi bi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908914@arentheem",
+      "date": "2026-11-25",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1908858@arentheem",
+      "date": "2026-11-26",
+      "start": "08:45",
+      "end": "09:30",
+      "summary": "v219 wi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1909052@arentheem",
+      "date": "2026-11-26",
+      "start": "09:30",
+      "end": "10:15",
+      "summary": "v219 bi lpv2",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1909016@arentheem",
+      "date": "2026-11-26",
+      "start": "10:15",
+      "end": "11:00",
+      "summary": "e016 bi vs9m.bi1 vs9k.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1909428@arentheem",
+      "date": "2026-11-26",
+      "start": "12:30",
+      "end": "13:15",
+      "summary": "v325 rek lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1909310@arentheem",
+      "date": "2026-11-26",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v325 wi lv1a",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1909274@arentheem",
+      "date": "2026-11-26",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "v325 wi lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1909391@arentheem",
+      "date": "2026-11-26",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
     }
   ]
 }
