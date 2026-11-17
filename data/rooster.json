@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:51:23",
+  "generated_at": "2026-11-17T13:57:23",
   "lessons": [
     {
       "id": "uid:1907039@arentheem",
@@ -162,9 +162,9 @@
       "end": "15:45",
       "summary": "e013 bi vs10k.bi1 vs10m.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1907125@arentheem",
@@ -195,9 +195,9 @@
       "end": "11:00",
       "summary": "e016 bi vs9m.bi1 vs9k.bi1",
       "location": "",
-      "cancelled": false,
+      "cancelled": true,
       "changed": false,
-      "change_note": null
+      "change_note": "Les vervalt"
     },
     {
       "id": "uid:1907700@arentheem",
