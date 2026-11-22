@@ -185,24 +185,16 @@
         {
           "datum": "2026-11-23",
           "tekst": "PO H3"
+        },
+        {
+          "datum": "2026-11-25",
+          "tekst": "Herkansing"
         }
       ],
       "2026-12-14": [
         {
           "datum": "2026-12-14",
           "tekst": "PW H3"
-        }
-      ],
-      "2026-12-21": [
-        {
-          "datum": "2026-12-21",
-          "tekst": "Kerstvakantie"
-        }
-      ],
-      "2026-12-28": [
-        {
-          "datum": "2026-12-28",
-          "tekst": "Kerstvakantie"
         }
       ],
       "2027-01-18": [
@@ -411,10 +403,24 @@
           "tekst": "H2 Rekenen - Negatieve Get."
         }
       ],
+      "2026-11-16": [
+        {
+          "datum": "2026-11-16",
+          "tekst": "Toets bespreken"
+        },
+        {
+          "datum": "2026-11-18",
+          "tekst": "Introductie H3"
+        }
+      ],
       "2026-11-23": [
         {
           "datum": "2026-11-23",
           "tekst": "PO H3"
+        },
+        {
+          "datum": "2026-11-25",
+          "tekst": "Herkansing"
         }
       ],
       "2026-12-14": [
@@ -871,10 +877,192 @@
           "tekst": "Microscopie practicum"
         }
       ],
+      "2026-10-05": [
+        {
+          "datum": "2026-10-07",
+          "tekst": "Microscopie practicum"
+        }
+      ],
+      "2026-10-12": [
+        {
+          "datum": "2026-10-14",
+          "tekst": "Microscopie practicum"
+        }
+      ],
       "2026-10-19": [
         {
           "datum": "2026-10-19",
           "tekst": "Herfstvakantie"
+        }
+      ],
+      "2026-10-26": [
+        {
+          "datum": "2026-10-26",
+          "tekst": "Herhaling"
+        }
+      ],
+      "2026-11-02": [
+        {
+          "datum": null,
+          "tekst": "D-toets"
+        },
+        {
+          "datum": null,
+          "tekst": "Quiz: uitbeelden en tekenen van begrippen"
+        }
+      ],
+      "2026-11-16": [
+        {
+          "datum": "2026-11-16",
+          "tekst": "Toets Thema 1 bespreken"
+        },
+        {
+          "datum": null,
+          "tekst": "Introductie thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "uitval i.v.m. minilessen"
+        }
+      ],
+      "2026-11-23": [
+        {
+          "datum": "2026-11-23",
+          "tekst": "Basisstof 2.1"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        }
+      ],
+      "2026-11-30": [
+        {
+          "datum": "2026-11-30",
+          "tekst": "Thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        }
+      ],
+      "2026-12-07": [
+        {
+          "datum": "2026-12-07",
+          "tekst": "Thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        }
+      ],
+      "2026-12-14": [
+        {
+          "datum": "2026-12-14",
+          "tekst": "Thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 2"
+        }
+      ],
+      "2026-12-21": [
+        {
+          "datum": "2026-12-21",
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        }
+      ],
+      "2026-12-28": [
+        {
+          "datum": "2026-12-28",
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        }
+      ],
+      "2027-01-04": [
+        {
+          "datum": "2027-01-04",
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        }
+      ],
+      "2027-01-11": [
+        {
+          "datum": "2027-01-11",
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        }
+      ],
+      "2027-01-18": [
+        {
+          "datum": "2027-01-18",
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 3"
+        }
+      ],
+      "2027-01-25": [
+        {
+          "datum": "2027-01-25",
+          "tekst": "Oefentoets"
+        },
+        {
+          "datum": null,
+          "tekst": "Oefentoets nakijken"
+        },
+        {
+          "datum": null,
+          "tekst": "Quiz"
         }
       ]
     },
@@ -1022,6 +1210,256 @@
           "datum": "2026-11-09",
           "tekst": "Toets T9"
         }
+      ],
+      "2026-11-16": [
+        {
+          "datum": "2026-11-16",
+          "tekst": "Toets T9 bespreken"
+        },
+        {
+          "datum": null,
+          "tekst": "Introductie thema 12"
+        },
+        {
+          "datum": null,
+          "tekst": "uitval i.v.m. minilessen"
+        }
+      ],
+      "2026-11-23": [
+        {
+          "datum": "2026-11-23",
+          "tekst": "Basisstof 12.1"
+        },
+        {
+          "datum": null,
+          "tekst": "Basisstof 12.2"
+        },
+        {
+          "datum": null,
+          "tekst": "Basisstof 12.3"
+        }
+      ],
+      "2026-11-30": [
+        {
+          "datum": "2026-11-30",
+          "tekst": "Basisstof 12.4"
+        },
+        {
+          "datum": null,
+          "tekst": "Basisstof 12.5"
+        },
+        {
+          "datum": null,
+          "tekst": "Basisstof 12.6"
+        }
+      ],
+      "2026-12-07": [
+        {
+          "datum": "2026-12-07",
+          "tekst": "Thema 12 extra les"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 12 extra les"
+        },
+        {
+          "datum": null,
+          "tekst": "Tentamen thema 12"
+        }
+      ],
+      "2026-12-14": [
+        {
+          "datum": "2026-12-14",
+          "tekst": "Thema XX"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema XX"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema XX"
+        }
+      ],
+      "2026-12-21": [
+        {
+          "datum": "2026-12-21",
+          "tekst": "Thema XX"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema XX"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema XX"
+        }
+      ],
+      "2026-12-28": [
+        {
+          "datum": "2026-12-28",
+          "tekst": "Thema XX"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema XX"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema XX"
+        }
+      ],
+      "2027-01-04": [
+        {
+          "datum": "2027-01-04",
+          "tekst": "Thema YY"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema YY"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema YY"
+        }
+      ],
+      "2027-01-11": [
+        {
+          "datum": "2027-01-11",
+          "tekst": "Thema YY"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema YY"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema YY"
+        }
+      ],
+      "2027-01-18": [
+        {
+          "datum": "2027-01-18",
+          "tekst": "Thema YY"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema YY"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema YY"
+        }
+      ],
+      "2027-01-25": [
+        {
+          "datum": "2027-01-25",
+          "tekst": "Oefenentoets"
+        },
+        {
+          "datum": null,
+          "tekst": "Oefenentoets nakijken"
+        },
+        {
+          "datum": null,
+          "tekst": "Quiz"
+        }
+      ],
+      "2027-02-01": [
+        {
+          "datum": "2027-02-01",
+          "tekst": "Tentamen thema YY"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 13"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 13"
+        }
+      ],
+      "2027-02-08": [
+        {
+          "datum": "2027-02-08",
+          "tekst": "Thema 13"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 13"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 13"
+        }
+      ],
+      "2027-02-15": [
+        {
+          "datum": "2027-02-15",
+          "tekst": "Thema 13"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 13"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 13"
+        }
+      ],
+      "2027-02-22": [
+        {
+          "datum": "2027-02-22",
+          "tekst": "Thema 14"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 14"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 14"
+        }
+      ],
+      "2027-03-01": [
+        {
+          "datum": "2027-03-01",
+          "tekst": "Thema 14"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 14"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 14"
+        }
+      ],
+      "2027-03-08": [
+        {
+          "datum": "2027-03-08",
+          "tekst": "Thema 14"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 14"
+        },
+        {
+          "datum": null,
+          "tekst": "Thema 14"
+        }
+      ],
+      "2027-03-15": [
+        {
+          "datum": "2027-03-15",
+          "tekst": "Thema 14"
+        }
+      ],
+      "2027-04-05": [
+        {
+          "datum": "2027-04-05",
+          "tekst": "Tentamen Thema 13 en 14"
+        }
       ]
     }
   },
@@ -1040,6 +1478,15 @@
     ],
     "2026-11-09": [
       "Toetsweek"
+    ],
+    "2026-11-16": [
+      "Minilessen"
+    ],
+    "2026-12-21": [
+      "Kerstvakantie"
+    ],
+    "2026-12-28": [
+      "Kerstvakantie"
     ]
   }
 }
