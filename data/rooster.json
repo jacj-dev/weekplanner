@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:20:53",
+  "generated_at": "2026-11-23T13:49:44",
   "lessons": [
     {
       "id": "uid:1908308@arentheem",
@@ -255,28 +255,6 @@
       "change_note": null
     },
     {
-      "id": "uid:1909749@arentheem",
-      "date": "2026-11-30",
-      "start": "11:15",
-      "end": "12:00",
-      "summary": "e111 bi vs9m.bi1 vs9k.bi1",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1909939@arentheem",
-      "date": "2026-11-30",
-      "start": "12:00",
-      "end": "12:45",
-      "summary": "e111 bi vs10k.bi1 vs10m.bi1",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
       "id": "uid:1909656@arentheem",
       "date": "2026-11-30",
       "start": "13:15",
@@ -365,17 +343,6 @@
       "change_note": null
     },
     {
-      "id": "uid:1910247@arentheem",
-      "date": "2026-12-02",
-      "start": "12:00",
-      "end": "12:45",
-      "summary": "e013 bi vs9m.bi1 vs9k.bi1",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
       "id": "uid:1910520@arentheem",
       "date": "2026-12-02",
       "start": "13:15",
@@ -398,17 +365,6 @@
       "change_note": null
     },
     {
-      "id": "uid:1910204@arentheem",
-      "date": "2026-12-02",
-      "start": "15:00",
-      "end": "15:45",
-      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
       "id": "uid:1910327@arentheem",
       "date": "2026-12-03",
       "start": "08:45",
@@ -425,17 +381,6 @@
       "start": "09:30",
       "end": "10:15",
       "summary": "v219 bi lpv2",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1910312@arentheem",
-      "date": "2026-12-03",
-      "start": "10:15",
-      "end": "11:00",
-      "summary": "e016 bi vs9m.bi1 vs9k.bi1",
       "location": "",
       "cancelled": false,
       "changed": false,
@@ -469,17 +414,6 @@
       "start": "14:00",
       "end": "14:45",
       "summary": "v325 wi lv1d",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1911019@arentheem",
-      "date": "2026-12-03",
-      "start": "15:00",
-      "end": "15:45",
-      "summary": "e013 bi vs10k.bi1 vs10m.bi1",
       "location": "",
       "cancelled": false,
       "changed": false,
