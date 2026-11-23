@@ -817,9 +817,16 @@
   "uid:1908308@arentheem": {
     "velden": {
       "titel": "3.1 Theorie B: Route",
-      "mededelingen": "Controle aanwezigheid en materialen"
+      "mededelingen": "Controle aanwezigheid en materialen\nToetsen uitdelen"
     },
-    "links": []
+    "links": [
+      {
+        "id": "e7f9d6d1",
+        "type": "url",
+        "label": "H3.1(2) Route",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQDVp9B4y2g4Q5k-xlsckFZeAamYZgpN-ktVFS55xoJt_H4?email=j.jacobs%40arentheemcollege.nl&e=c6zg1y"
+      }
+    ]
   },
   "uid:1908295@arentheem": {
     "velden": {
