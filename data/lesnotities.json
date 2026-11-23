@@ -846,7 +846,11 @@
     ]
   },
   "uid:1908472@arentheem": {
-    "velden": {},
+    "velden": {
+      "titel": "Basisstof 2.1 Geslachtsorganen",
+      "mededelingen": "Donderdag \nHerkansers",
+      "huiswerk_nu": "Voorbereidingsparagraaf"
+    },
     "links": [
       {
         "id": "c041649f",
