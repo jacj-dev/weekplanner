@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:49:44",
+  "generated_at": "2026-11-24T01:21:05",
   "lessons": [
     {
       "id": "uid:1908308@arentheem",
@@ -257,9 +257,9 @@
     {
       "id": "uid:1909656@arentheem",
       "date": "2026-11-30",
-      "start": "13:15",
-      "end": "14:00",
-      "summary": "v322_ne bi lv1a",
+      "start": "12:30",
+      "end": "13:15",
+      "summary": "v048_zw bi lv1a",
       "location": "",
       "cancelled": false,
       "changed": false,
@@ -268,9 +268,9 @@
     {
       "id": "uid:1909646@arentheem",
       "date": "2026-11-30",
-      "start": "14:00",
-      "end": "14:45",
-      "summary": "v323_en wi lv1a",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "v048_zw wi lv1a",
       "location": "",
       "cancelled": false,
       "changed": false,
@@ -347,7 +347,7 @@
       "date": "2026-12-02",
       "start": "13:15",
       "end": "14:00",
-      "summary": "v216_bi wi lv1a",
+      "summary": "v324_ma wi lv1a",
       "location": "",
       "cancelled": false,
       "changed": false,
@@ -358,7 +358,7 @@
       "date": "2026-12-02",
       "start": "14:00",
       "end": "14:45",
-      "summary": "v216_bi bi lv1a",
+      "summary": "v324_ma bi lv1a",
       "location": "",
       "cancelled": false,
       "changed": false,
