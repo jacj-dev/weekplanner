@@ -866,5 +866,18 @@
       "huiswerk_nu": "nvt"
     },
     "links": []
+  },
+  "uid:1908680@arentheem": {
+    "velden": {
+      "titel": "Eindopdracht Thema 3"
+    },
+    "links": [
+      {
+        "id": "6649c784",
+        "type": "url",
+        "label": "Plakopdracht",
+        "target": "ms-powerpoint:ofe|u|https://cogonderwijs-my.sharepoint.com/:p:/g/personal/j_jacobs_arentheemcollege_nl/IQBnKJb7qXlmSKcO6Kl1wBxXAUK8HYKldfuOTuilojrnrJ8?email=j.jacobs%40arentheemcollege.nl&e=FxkypD"
+      }
+    ]
   }
 }
