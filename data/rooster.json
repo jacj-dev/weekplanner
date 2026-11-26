@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:51:58",
+  "generated_at": "2026-11-26T15:58:34",
   "lessons": [
     {
       "id": "uid:1908308@arentheem",
@@ -255,11 +255,33 @@
       "change_note": null
     },
     {
+      "id": "uid:1941310@arentheem",
+      "date": "2026-11-30",
+      "start": "12:00",
+      "end": "12:45",
+      "summary": "LEBE",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
       "id": "uid:1909656@arentheem",
       "date": "2026-11-30",
       "start": "12:30",
       "end": "13:15",
       "summary": "v048_zw bi lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "id": "uid:1941236@arentheem",
+      "date": "2026-11-30",
+      "start": "13:15",
+      "end": "14:00",
+      "summary": "LEBE",
       "location": "",
       "cancelled": false,
       "changed": false,
@@ -271,6 +293,61 @@
       "start": "13:15",
       "end": "14:00",
       "summary": "v048_zw wi lv1a",
+      "location": "",
+      "cancelled": true,
+      "changed": false,
+      "change_note": "Les vervalt"
+    },
+    {
+      "id": "uid:1941255@arentheem",
+      "date": "2026-11-30",
+      "start": "14:00",
+      "end": "14:45",
+      "summary": "LEBE",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1941371@arentheem",
+      "date": "2026-11-30",
+      "start": "15:00",
+      "end": "15:45",
+      "summary": "LEBE",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1941305@arentheem",
+      "date": "2026-11-30",
+      "start": "15:45",
+      "end": "16:30",
+      "summary": "LEBE",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1941254@arentheem",
+      "date": "2026-11-30",
+      "start": "16:30",
+      "end": "17:15",
+      "summary": "LEBE",
+      "location": "",
+      "cancelled": false,
+      "changed": false,
+      "change_note": null
+    },
+    {
+      "id": "uid:1941250@arentheem",
+      "date": "2026-11-30",
+      "start": "17:15",
+      "end": "18:00",
+      "summary": "LEBE",
       "location": "",
       "cancelled": false,
       "changed": false,
@@ -284,8 +361,8 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": false,
-      "change_note": null
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
       "id": "uid:1909977@arentheem",
@@ -295,8 +372,8 @@
       "summary": "v044_en verg",
       "location": "",
       "cancelled": false,
-      "changed": false,
-      "change_note": null
+      "changed": true,
+      "change_note": "Er is een wijziging bij docenten: akel,berm,bhas,bihp,bocr,bose,bosw,bram,brei,buly,casj,coef,corh,dray,erta,essa,haai,hade,h"
     },
     {
       "id": "uid:1910287@arentheem",
@@ -387,6 +464,17 @@
       "change_note": null
     },
     {
+      "id": "uid:1911096@arentheem",
+      "date": "2026-12-03",
+      "start": "10:30",
+      "end": "11:15",
+      "summary": "v325 wi lv1d",
+      "location": "",
+      "cancelled": false,
+      "changed": true,
+      "change_note": "De les is verplaatst (komt van do 14:00u)."
+    },
+    {
       "id": "uid:1910933@arentheem",
       "date": "2026-12-03",
       "start": "12:30",
@@ -403,17 +491,6 @@
       "start": "13:15",
       "end": "14:00",
       "summary": "v325 wi lv1a",
-      "location": "",
-      "cancelled": false,
-      "changed": false,
-      "change_note": null
-    },
-    {
-      "id": "uid:1911096@arentheem",
-      "date": "2026-12-03",
-      "start": "14:00",
-      "end": "14:45",
-      "summary": "v325 wi lv1d",
       "location": "",
       "cancelled": false,
       "changed": false,
